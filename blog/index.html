@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog de Surco | Cuaderno de campo digital y gestión agrícola</title>
+  <meta name="description" content="Guías prácticas sobre cuaderno de campo digital, registro de labores agrícolas y gestión del campo."/>
+  <link rel="canonical" href="https://surco.lat/blog/" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Qué es un cuaderno de campo digital?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Es una herramienta para registrar actividades agrícolas desde el celular, sin papel ni planillas. Surco funciona directamente desde WhatsApp."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Funciona con WhatsApp?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí, Surco funciona 100% desde WhatsApp. No necesitás descargar ninguna app ni crear cuentas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "¿Es gratis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí, podés empezar gratis. Registrá labores, identificá plagas por foto y generá reportes PDF sin costo."
+        }
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #f7f5f1;
+      --card: #ffffff;
+      --text: #2d241f;
+      --muted: #6b6763;
+      --border: #e7e0d8;
+      --accent: #6ea042;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .container {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+    .topbar { padding: 20px 0 10px; }
+    .back-home {
+      text-decoration: none;
+      font-size: 14px;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .back-home:hover { color: var(--accent); }
+    .hero { padding: 20px 0 10px; }
+    .hero h1 {
+      margin: 0 0 12px;
+      font-family: Georgia, serif;
+      font-size: 36px;
+      line-height: 1.1;
+    }
+    .hero p {
+      margin: 0;
+      font-size: 16px;
+      color: var(--muted);
+      max-width: 700px;
+      line-height: 1.6;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      padding: 24px 0 50px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+      text-decoration: none;
+      color: inherit;
+      transition: 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    }
+    .card h2 { font-size: 20px; margin: 0 0 10px; line-height: 1.2; }
+    .card p { font-size: 14px; color: var(--muted); margin-bottom: 12px; line-height: 1.5; }
+    .card span { font-size: 14px; font-weight: 600; color: var(--accent); }
+    .faq {
+      padding: 40px 0 60px;
+      border-top: 1px solid var(--border);
+    }
+    .faq h2 {
+      font-family: Georgia, serif;
+      font-size: 28px;
+      margin: 0 0 32px;
+    }
+    .faq-item { margin-bottom: 24px; }
+    .faq-item h3 {
+      font-size: 17px;
+      font-weight: 600;
+      margin: 0 0 8px;
+      color: var(--text);
+    }
+    .faq-item p {
+      font-size: 15px;
+      color: var(--muted);
+      margin: 0;
+      line-height: 1.6;
+    }
+    @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 600px) {
+      .grid { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+
+    <div class="topbar">
+      <a href="/" class="back-home">← Volver a Surco</a>
+    </div>
+
+    <section class="hero">
+      <h1>Blog de Surco</h1>
+      <p>Guías prácticas para ordenar registros agrícolas, consultar información del campo y tomar mejores decisiones.</p>
+    </section>
+
+    <section class="grid">
+
+      <a class="card" href="/blog/cuaderno-de-campo-digital-vs-papel/">
+        <h2>Cuaderno de campo digital vs papel: ¿cuál conviene usar?</h2>
+        <p>Comparamos los dos métodos para registrar labores agrícolas en el campo argentino.</p>
+        <span>Leer artículo</span>
+      </a>
+
+      <a class="card" href="/blog/como-compartir-informacion-del-campo-con-tu-agronomo/">
+        <h2>Cómo compartir información del campo con tu agrónomo</h2>
+        <p>Guía práctica para productores que quieren mejorar la comunicación con su agrónomo.</p>
+        <span>Leer artículo</span>
+      </a>
+
+      <a class="card" href="/blog/cuaderno-de-campo-digital-dia-a-dia/">
+        <h2>Cuaderno de campo digital: qué es y cómo usarlo en el agro</h2>
+        <p>Cómo registrar información, organizarla y consultarla de forma simple.</p>
+        <span>Leer artículo</span>
+      </a>
+
+      <a class="card" href="/blog/registrar-pulverizaciones-whatsapp/">
+        <h2>Cómo registrar pulverizaciones de forma digital paso a paso</h2>
+        <p>Qué datos incluir y cómo evitar registros incompletos.</p>
+        <span>Leer artículo</span>
+      </a>
+
+      <a class="card" href="/blog/registro-fitosanitario-que-datos-guardar/">
+        <h2>Registro fitosanitario: qué datos incluir y cómo organizarlos</h2>
+        <p>Cómo ordenar productos, dosis y aplicaciones sin perder trazabilidad.</p>
+        <span>Leer artículo</span>
+      </a>
+
+      <a class="card" href="/blog/historial-de-labores-por-lote/">
+        <h2>Cómo organizar el historial de labores agrícolas por lote</h2>
+        <p>Por qué los registros sueltos generan problemas y cómo solucionarlo.</p>
+        <span>Leer artículo</span>
+      </a>
+
+      <a class="card" href="/blog/como-llevar-un-registro-de-campo-digital/">
+        <h2>Cómo llevar un registro de campo digital</h2>
+        <p>Un paso a paso simple para empezar a registrar desde el celular.</p>
+        <span>Leer artículo</span>
+      </a>
+
+      <a class="card" href="/blog/aplicaciones-practicas-de-la-inteligencia-artificial-en-el-agro/">
+        <h2>Aplicaciones prácticas de la inteligencia artificial en el agro</h2>
+        <p>Usos reales para ordenar información y mejorar decisiones.</p>
+        <span>Leer artículo</span>
+      </a>
+
+      <a class="card" href="/blog/registrar-lluvias-campo/">
+        <h2>Cómo registrar lluvias en el campo y por qué importa</h2>
+        <p>Qué datos guardar después de una lluvia y cómo usar ese historial para decidir siembras, aplicaciones y manejo de lotes.</p>
+        <span>Leer artículo</span>
+      </a>
+
+      <a class="card" href="/blog/plagas-soja-argentina/">
+        <h2>Cómo identificar las principales plagas de soja en Argentina</h2>
+        <p>Qué mirar en hojas, tallos y vainas para detectar orugas, chinches, trips y arañuela a tiempo.</p>
+        <span>Leer artículo</span>
+      </a>
+
+    </section>
+
+    <section class="faq">
+      <h2>Preguntas frecuentes</h2>
+      <div class="faq-item">
+        <h3>¿Qué es un cuaderno de campo digital?</h3>
+        <p>Es una herramienta para registrar actividades agrícolas desde el celular, sin papel ni planillas. Surco funciona directamente desde WhatsApp — mandás un audio o texto y el sistema organiza todo automáticamente.</p>
+      </div>
+      <div class="faq-item">
+        <h3>¿Funciona con WhatsApp?</h3>
+        <p>Sí, Surco funciona 100% desde WhatsApp. No necesitás descargar ninguna app ni crear cuentas en ningún sitio.</p>
+      </div>
+      <div class="faq-item">
+        <h3>¿Es gratis?</h3>
+        <p>Sí, podés empezar gratis. Registrá labores, identificá plagas por foto y generá reportes PDF sin costo.</p>
+      </div>
+      <div class="faq-item">
+        <h3>¿Para quién es Surco?</h3>
+        <p>Para productores agropecuarios, ingenieros agrónomos y contratistas rurales en Argentina y LATAM que quieren llevar un historial organizado de su campo sin complicaciones.</p>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
