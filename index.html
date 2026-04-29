@@ -118,6 +118,23 @@ body{font-family:'DM Sans',sans-serif;color:var(--brown);background:var(--cream)
 nav{position:fixed;top:0;width:100%;z-index:100;padding:20px 0;transition:all .3s;background:rgba(253,251,247,.95);backdrop-filter:blur(12px)}
 nav.scrolled{background:rgba(253,251,247,.95);backdrop-filter:blur(12px);box-shadow:0 1px 0 rgba(46,34,24,.08)}
 .nav-inner{max-width:1100px;margin:0 auto;padding:0 32px;display:flex;justify-content:space-between;align-items:center}
+ .nav-links{
+  display:flex;
+  align-items:center;
+  gap:28px;
+}
+
+.nav-links a{
+  color:var(--brown);
+  text-decoration:none;
+  font-size:14px;
+  font-weight:600;
+  transition:color .2s;
+}
+
+.nav-links a:hover{
+  color:var(--green);
+}
 .logo{font-family:'DM Sans';font-weight:700;font-size:22px;color:var(--brown);text-decoration:none;letter-spacing:-.5px}
 .logo span{color:var(--green)}
 .nav-cta{background:var(--green);color:#fff;text-decoration:none;padding:10px 24px;border-radius:100px;font-size:14px;font-weight:600;transition:all .2s}
@@ -195,16 +212,27 @@ footer a{color:var(--sand);text-decoration:none}
 .aud-grid{grid-template-columns:1fr;gap:20px}
 .hero{padding:100px 24px 60px}
 .how,.features,.audience,.faq{padding:60px 24px}
+
+ .nav-links{display:none}
+ 
 }
 </style>
 </head>
 <body>
  
 <nav id="nav">
-<div class="nav-inner">
-<a href="https://surco.lat" class="logo" aria-label="Surco - inicio">surco<span>.</span></a>
-<a href="https://wa.me/5491178290066" class="nav-cta" target="_blank" rel="noopener">Empezar gratis</a>
-</div>
+  <div class="nav-inner">
+    <a href="https://surco.lat" class="logo" aria-label="Surco - inicio">surco<span>.</span></a>
+
+    <div class="nav-links">
+      <a href="https://surco.lat/#como-funciona">Cómo funciona</a>
+      <a href="https://surco.lat/#funciones">Funciones</a>
+      <a href="https://surco.lat/blog/">Blog</a>
+      <a href="https://surco.lat/#preguntas">FAQ</a>
+    </div>
+
+    <a href="https://wa.me/5491178290066" class="nav-cta" target="_blank" rel="noopener">Empezar gratis</a>
+  </div>
 </nav>
  
 <section class="hero">
