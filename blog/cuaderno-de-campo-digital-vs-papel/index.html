@@ -65,6 +65,11 @@ table{width:100%;border-collapse:collapse;margin:32px 0;font-size:15px}
 th{background:var(--brown);color:var(--cream);padding:12px 16px;text-align:left}
 td{padding:12px 16px;border-bottom:1px solid rgba(46,34,24,.1);color:var(--text-mid)}
 tr:nth-child(even) td{background:var(--cream-dark)}
+.related{margin-top:40px;padding:28px;background:var(--cream-dark);border-radius:16px;border:1px solid rgba(46,34,24,.08)}
+.related p{font-size:15px;font-weight:600;margin-bottom:16px;color:var(--brown)}
+.related-links{display:flex;gap:12px;flex-wrap:wrap}
+.related-links a{display:inline-block;padding:10px 18px;border-radius:100px;border:1px solid rgba(46,34,24,.15);font-size:14px;font-weight:600;color:var(--brown);text-decoration:none;background:#fff;transition:all .2s}
+.related-links a:hover{border-color:var(--green);color:var(--green)}
 footer{padding:32px;background:var(--brown);border-top:1px solid rgba(201,152,106,.15);text-align:center}
 footer p{color:var(--text-pale);font-size:13px}
 footer a{color:var(--sand);text-decoration:none}
@@ -72,31 +77,22 @@ footer a{color:var(--sand);text-decoration:none}
 </style>
 </head>
 <body>
-
+ 
 <nav>
 <div class="nav-inner">
 <a href="https://surco.lat" class="logo">surco<span>.</span></a>
 <a href="https://wa.me/5491178290066" class="nav-cta" target="_blank" rel="noopener">Empezar gratis</a>
 </div>
 </nav>
-
-  <div class="cta-box" style="margin-top:40px">
-  <h3>Seguir leyendo</h3>
-  <div class="cta-row">
-    <a class="button secondary" href="/blog/cuaderno-de-campo-digital-dia-a-dia/">Cómo usarlo en el día a día</a>
-    <a class="button secondary" href="/blog/como-llevar-un-registro-de-campo-digital/">Cómo llevar un registro digital</a>
-    <a class="button secondary" href="/blog/historial-de-labores-por-lote/">Historial de labores por lote</a>
-  </div>
-</div>
-  
+ 
 <div class="article-wrap">
 <a href="/blog/" class="back-link">← Volver al blog</a>
 <span class="article-label">Gestión agrícola</span>
 <h1>Cuaderno de campo digital vs papel: ¿cuál conviene usar?</h1>
 <p class="article-meta">Por Agustina Dieser · Ingeniera Agrónoma · Abril 2026</p>
-
+ 
 <p>El cuaderno de campo es una herramienta obligatoria para cualquier productor o agrónomo que quiera llevar trazabilidad de sus labores. Pero la forma de llevarlo cambió: el papel convivió durante décadas con las planillas de Excel, y ahora aparecen las soluciones digitales. ¿Cuál es la mejor opción para el campo argentino?</p>
-
+ 
 <h2>El cuaderno de campo en papel</h2>
 <p>Durante años, el cuaderno físico fue el estándar. Fácil de usar, sin necesidad de internet ni batería, accesible para cualquier persona. Pero tiene limitaciones claras:</p>
 <ul>
@@ -106,12 +102,12 @@ footer a{color:var(--sand);text-decoration:none}
   <li>El análisis posterior requiere horas de procesamiento manual</li>
   <li>No genera reportes automáticos para el dueño del campo</li>
 </ul>
-
+ 
 <blockquote><p>"El papel está bien hasta que necesitás encontrar qué se aplicó en el lote 3 hace tres meses. Ahí empieza el problema."</p></blockquote>
-
+ 
 <h2>Las planillas de Excel</h2>
 <p>Muchos agrónomos migraron al Excel como solución intermedia. Es más organizado que el papel y permite filtros y cálculos. Pero sigue requiriendo carga manual después de cada visita — algo que rara vez ocurre en el momento.</p>
-
+ 
 <h2>El cuaderno de campo digital por WhatsApp</h2>
 <p>La nueva generación de herramientas elimina la fricción del registro. En lugar de completar formularios o abrir apps, el agrónomo o productor describe la labor como lo haría por mensaje: por audio, texto o foto.</p>
 <ul>
@@ -121,7 +117,7 @@ footer a{color:var(--sand);text-decoration:none}
   <li>Historial consultable en cualquier momento</li>
   <li>Identificación de plagas por foto con inteligencia artificial</li>
 </ul>
-
+ 
 <h2>Comparación directa</h2>
 <table>
   <tr><th>Característica</th><th>Papel</th><th>Excel</th><th>Digital (WhatsApp)</th></tr>
@@ -133,24 +129,31 @@ footer a{color:var(--sand);text-decoration:none}
   <tr><td>Requiere nueva app</td><td>No</td><td>No</td><td>No</td></tr>
   <tr><td>Costo</td><td>Bajo</td><td>Bajo</td><td>Gratis para empezar</td></tr>
 </table>
-
+ 
 <h2>¿Cuál conviene usar?</h2>
 <p>Para productores y agrónomos que trabajan en campo y necesitan registrar en el momento, el cuaderno digital por WhatsApp tiene ventajas claras sobre el papel y el Excel. No requiere aprender nada nuevo ni descargar ninguna app — solo agregás un contacto y empezás a registrar.</p>
 <p>El papel sigue siendo útil como respaldo en zonas sin señal. Pero para la gestión diaria y la trazabilidad que exigen las buenas prácticas agrícolas, el digital es la opción más eficiente.</p>
-
+ 
 <div class="cta-box">
   <h3>Probá Surco gratis</h3>
   <p>Registrá labores por audio o texto desde WhatsApp. Sin apps, sin planillas.</p>
-  <a href="https://wa.me/5491178290066" class="cta-btn" target="_blank" rel="noopener">
-    Empezar ahora
-  </a>
+  <a href="https://wa.me/5491178290066" class="cta-btn" target="_blank" rel="noopener">Empezar ahora</a>
 </div>
-
+ 
+<div class="related">
+  <p>Seguir leyendo</p>
+  <div class="related-links">
+    <a href="/blog/cuaderno-de-campo-digital-dia-a-dia/">Cómo usarlo en el día a día</a>
+    <a href="/blog/como-llevar-un-registro-de-campo-digital/">Cómo llevar un registro digital</a>
+    <a href="/blog/historial-de-labores-por-lote/">Historial de labores por lote</a>
+  </div>
 </div>
-
+ 
+</div>
+ 
 <footer>
 <p><a href="https://surco.lat">surco<span style="color:#6A9E48">.</span></a> — Hecho en Argentina — <a href="mailto:hola@surco.lat">hola@surco.lat</a></p>
 </footer>
-
+ 
 </body>
 </html>
