@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://surco.lat/</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://surco.lat/blog/</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-05-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://surco.lat/blog/cuaderno-de-campo-digital-dia-a-dia/</loc>
-    <lastmod>2026-04-13</lastmod>
+    <loc>https://surco.lat/blog/aplicaciones-practicas-de-la-inteligencia-artificial-en-el-agro/</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://surco.lat/blog/registrar-pulverizaciones-whatsapp/</loc>
-    <lastmod>2026-04-13</lastmod>
-  </url>
-  <url>
-    <loc>https://surco.lat/blog/registro-fitosanitario-que-datos-guardar/</loc>
-    <lastmod>2026-04-13</lastmod>
-  </url>
-  <url>
-    <loc>https://surco.lat/blog/historial-de-labores-por-lote/</loc>
-    <lastmod>2026-04-13</lastmod>
-  </url>
+
 </urlset>
