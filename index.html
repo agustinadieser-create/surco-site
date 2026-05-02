@@ -1,428 +1,741 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Surco — Cuaderno de campo digital por WhatsApp | Registro de labores agro</title>
-<meta name="description" content="Registrá labores agrícolas, identificá plagas por foto y llevá el historial de tu campo desde WhatsApp. Sin apps, sin planillas. Gratis para productores, agrónomos y contratistas en Argentina, Colombia, México y toda América Latina.">
-<meta name="keywords" content="cuaderno de campo digital, bitácora de campo, diario de campo, registro de labores agrícolas, WhatsApp agro, gestión agrícola, cuaderno de campo WhatsApp, agro LATAM, registro fitosanitario, trazabilidad agrícola, agrónomo, contratista rural, plagas agrícolas, reporte de campo PDF, agricultura Colombia, agricultura México, agricultura Argentina, agricultura Uruguay, agricultura Paraguay">
+<meta name="description" content="Registrá labores agrícolas, identificá plagas por foto y llevá el historial de tu campo desde WhatsApp. Sin apps, sin planillas. Gratis para productores, agrónomos y contratistas en Argentina y toda América Latina.">
+<meta name="keywords" content="cuaderno de campo digital, bitácora de campo, diario de campo, registro de labores agrícolas, WhatsApp agro, gestión agrícola, cuaderno de campo WhatsApp, agro LATAM, registro fitosanitario, trazabilidad agrícola, agrónomo, contratista rural, plagas agrícolas, reporte de campo PDF, agricultura Argentina, agricultura Colombia, agricultura México">
 <meta name="author" content="Surco - Agustina Dieser">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://surco.lat/">
- 
-<!-- Hreflang LATAM -->
 <link rel="alternate" hreflang="es" href="https://surco.lat/">
 <link rel="alternate" hreflang="es-AR" href="https://surco.lat/">
 <link rel="alternate" hreflang="es-CO" href="https://surco.lat/">
 <link rel="alternate" hreflang="es-MX" href="https://surco.lat/">
-<link rel="alternate" hreflang="es-UY" href="https://surco.lat/">
-<link rel="alternate" hreflang="es-PY" href="https://surco.lat/">
 <link rel="alternate" hreflang="x-default" href="https://surco.lat/">
- 
-<!-- Open Graph -->
+
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://surco.lat/">
 <meta property="og:title" content="Surco — Cuaderno de campo digital por WhatsApp">
-<meta property="og:description" content="Registrá labores, identificá plagas y llevá el historial de tu campo desde WhatsApp. Gratis. Para productores y agrónomos de toda América Latina.">
+<meta property="og:description" content="Registrá labores, identificá plagas y llevá el historial de tu campo desde WhatsApp. Gratis. Para toda América Latina.">
 <meta property="og:locale" content="es_419">
-<meta property="og:locale:alternate" content="es_AR">
-<meta property="og:locale:alternate" content="es_CO">
-<meta property="og:locale:alternate" content="es_MX">
 <meta property="og:site_name" content="Surco">
- 
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Surco — Cuaderno de campo digital por WhatsApp">
-<meta name="twitter:description" content="Registrá labores, identificá plagas y llevá el historial de tu campo desde WhatsApp. Gratis. Para toda América Latina.">
- 
-<!-- Favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
- 
-<!-- Structured Data -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Surco",
-  "description": "Cuaderno de campo digital por WhatsApp. Registrá labores agrícolas por audio o texto, identificá plagas por foto, y generá reportes PDF profesionales.",
-  "url": "https://surco.lat",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "WhatsApp",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD",
-    "description": "Plan gratuito con funciones básicas de cuaderno de campo"
-  },
-  "author": {
-    "@type": "Person",
-    "name": "Agustina Dieser",
-    "jobTitle": "Ingeniera Agrónoma"
-  },
-  "areaServed": [
-    {"@type": "Country", "name": "Argentina"},
-    {"@type": "Country", "name": "Colombia"},
-    {"@type": "Country", "name": "Mexico"},
-    {"@type": "Country", "name": "Uruguay"},
-    {"@type": "Country", "name": "Paraguay"},
-    {"@type": "Country", "name": "Brazil"},
-    {"@type": "Country", "name": "Chile"}
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "¿Qué es Surco?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Surco es un cuaderno de campo digital que funciona 100% por WhatsApp. Registrás labores agrícolas por audio, texto o foto, y Surco organiza todo automáticamente con inteligencia artificial."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Cuánto cuesta Surco?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Surco es gratis para empezar. Podés registrar labores, identificar plagas y generar reportes PDF sin costo."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "¿Necesito descargar una app?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. Surco funciona directamente desde WhatsApp. No necesitás descargar ninguna aplicación ni crear cuentas en ningún sitio."
-      }
-    }
-  ]
-}
-</script>
- 
+<meta name="twitter:description" content="Registrá labores, identificá plagas y llevá el historial de tu campo desde WhatsApp. Gratis.">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%236A9E48'/></svg>">
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Surco","description":"Cuaderno de campo digital por WhatsApp.","url":"https://surco.lat","applicationCategory":"BusinessApplication","operatingSystem":"WhatsApp","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Agustina Dieser","jobTitle":"Ingeniera Agrónoma"},"areaServed":[{"@type":"Country","name":"Argentina"},{"@type":"Country","name":"Colombia"},{"@type":"Country","name":"Mexico"}]}</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
---brown:#2E2218;--green:#6A9E48;--sand:#C9986A;--sand-light:#E8D5BF;
---cream:#FDFBF7;--cream-dark:#F5EDE3;--text:#1A1A1A;--text-mid:#5A5A5A;
---text-pale:#8A8A80;
+  --brown:#2E2218;
+  --brown-mid:#4A3728;
+  --green:#6A9E48;
+  --green-dark:#4E7A33;
+  --green-light:#8FBC6A;
+  --sand:#C9986A;
+  --sand-light:#E8D5BF;
+  --sand-pale:#F5EDE3;
+  --cream:#FDFBF7;
+  --cream-dark:#F5EDE3;
+  --text:#1A1A1A;
+  --text-mid:#5A5A5A;
+  --text-pale:#8A8A80;
+  --white:#ffffff;
 }
 html{scroll-behavior:smooth}
 body{font-family:'DM Sans',sans-serif;color:var(--brown);background:var(--cream);overflow-x:hidden}
- 
-nav{position:fixed;top:0;width:100%;z-index:100;padding:20px 0;transition:all .3s;background:rgba(253,251,247,.95);backdrop-filter:blur(12px)}
-nav.scrolled{background:rgba(253,251,247,.95);backdrop-filter:blur(12px);box-shadow:0 1px 0 rgba(46,34,24,.08)}
-.nav-inner{max-width:1100px;margin:0 auto;padding:0 32px;display:flex;justify-content:space-between;align-items:center}
- .nav-links{
-  display:flex;
-  align-items:center;
-  gap:28px;
-}
- 
-.nav-links a{
-  color:var(--brown);
-  text-decoration:none;
-  font-size:14px;
-  font-weight:600;
-  transition:color .2s;
-}
- 
-.nav-links a:hover{
-  color:var(--green);
-}
+
+/* ─── SCROLL ANIMATIONS ─── */
+.reveal{opacity:0;transform:translateY(32px);transition:opacity .7s ease,transform .7s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-left{opacity:0;transform:translateX(-32px);transition:opacity .7s ease,transform .7s ease}
+.reveal-left.visible{opacity:1;transform:translateX(0)}
+.reveal-right{opacity:0;transform:translateX(32px);transition:opacity .7s ease,transform .7s ease}
+.reveal-right.visible{opacity:1;transform:translateX(0)}
+.delay-1{transition-delay:.1s}
+.delay-2{transition-delay:.2s}
+.delay-3{transition-delay:.3s}
+.delay-4{transition-delay:.4s}
+.delay-5{transition-delay:.5s}
+
+/* ─── NAV ─── */
+nav{position:fixed;top:0;width:100%;z-index:100;padding:20px 0;transition:all .4s}
+nav.scrolled{background:rgba(253,251,247,.96);backdrop-filter:blur(16px);box-shadow:0 1px 0 rgba(46,34,24,.08)}
+.nav-inner{max-width:1140px;margin:0 auto;padding:0 32px;display:flex;justify-content:space-between;align-items:center}
 .logo{font-family:'DM Sans';font-weight:700;font-size:22px;color:var(--brown);text-decoration:none;letter-spacing:-.5px}
 .logo span{color:var(--green)}
-.nav-cta{background:var(--green);color:#fff;text-decoration:none;padding:10px 24px;border-radius:100px;font-size:14px;font-weight:600;transition:all .2s}
-.nav-cta:hover{background:#5B8A3D;transform:translateY(-1px)}
- 
-.hero{min-height:100vh;display:flex;align-items:center;padding:120px 32px 80px;position:relative}
-.hero::before{content:'';position:absolute;top:0;right:0;width:45%;height:100%;background:var(--cream-dark);z-index:0;border-radius:0 0 0 120px}
-.hero-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;position:relative;z-index:1;width:100%}
-.hero-text h1{font-family:'DM Serif Display',serif;font-size:clamp(36px,5vw,56px);line-height:1.1;color:var(--brown);margin-bottom:24px}
-.hero-text h1 em{font-style:normal;color:var(--green)}
-.hero-text p{font-size:19px;line-height:1.7;color:var(--text-mid);margin-bottom:40px;max-width:460px}
-.hero-cta{display:inline-flex;align-items:center;gap:12px;background:var(--green);color:#fff;text-decoration:none;padding:16px 36px;border-radius:100px;font-size:17px;font-weight:600;transition:all .25s;box-shadow:0 4px 24px rgba(106,158,72,.3)}
-.hero-cta:hover{background:#5B8A3D;transform:translateY(-2px);box-shadow:0 8px 32px rgba(106,158,72,.35)}
-.hero-cta svg{width:22px;height:22px}
-.hero-visual{display:flex;flex-direction:column;gap:16px;padding:40px}
-.chat-bubble{background:#fff;border-radius:16px;padding:18px 22px;font-size:15px;line-height:1.6;color:var(--brown);box-shadow:0 2px 16px rgba(46,34,24,.06);max-width:340px;position:relative;animation:fadeUp .6s ease both}
-.chat-bubble.user{background:var(--brown);color:var(--sand-light);align-self:flex-end;border-bottom-right-radius:4px;animation-delay:.2s}
-.chat-bubble.bot{border-bottom-left-radius:4px;animation-delay:.5s}
-.chat-bubble.bot::before{content:'surco.';font-weight:700;font-size:11px;color:var(--green);display:block;margin-bottom:6px;letter-spacing:.5px;text-transform:uppercase}
-@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
- 
-.how{padding:100px 32px;background:#fff}
-.section-inner{max-width:1100px;margin:0 auto}
-.section-label{font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--green);margin-bottom:12px}
-.section-title{font-family:'DM Serif Display',serif;font-size:clamp(28px,3.5vw,40px);color:var(--brown);margin-bottom:60px;max-width:500px}
-.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:48px}
-.step{position:relative}
-.step-num{font-family:'DM Serif Display',serif;font-size:64px;color:var(--cream-dark);line-height:1;margin-bottom:8px}
+.nav-links{display:flex;gap:32px;align-items:center}
+.nav-links a{color:var(--brown-mid);text-decoration:none;font-size:14px;font-weight:500;opacity:.7;transition:opacity .2s}
+.nav-links a:hover{opacity:1}
+.nav-cta{background:var(--green);color:#fff!important;opacity:1!important;text-decoration:none;padding:10px 24px;border-radius:100px;font-size:14px;font-weight:600;transition:all .2s;display:flex;align-items:center;gap:8px}
+.nav-cta:hover{background:var(--green-dark);transform:translateY(-1px)}
+.nav-cta svg{width:16px;height:16px}
+
+/* ─── HERO ─── */
+.hero{min-height:100vh;display:flex;align-items:center;padding:100px 32px 80px;position:relative;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg-shape{position:absolute;top:-10%;right:-5%;width:55%;height:120%;background:var(--cream-dark);border-radius:0 0 0 140px;z-index:0}
+/* grain texture */
+.hero-bg::after{content:'';position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.025'/%3E%3C/svg%3E");opacity:.4;pointer-events:none}
+.hero-inner{max-width:1140px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:center;position:relative;z-index:1;width:100%}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:8px;background:rgba(106,158,72,.1);border:1px solid rgba(106,158,72,.25);color:var(--green-dark);font-size:12px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;padding:6px 14px;border-radius:100px;margin-bottom:24px}
+.hero-eyebrow span{width:6px;height:6px;background:var(--green);border-radius:50%;display:inline-block;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+.hero-text h1{font-family:'DM Serif Display',serif;font-size:clamp(38px,5vw,60px);line-height:1.05;color:var(--brown);margin-bottom:24px;letter-spacing:-.5px}
+.hero-text h1 em{font-style:italic;color:var(--green)}
+.hero-text p{font-size:19px;line-height:1.75;color:var(--text-mid);margin-bottom:12px;max-width:460px}
+.hero-sub{font-size:14px!important;color:var(--text-pale)!important;margin-bottom:36px!important}
+.hero-actions{display:flex;flex-direction:column;gap:16px;align-items:flex-start}
+.hero-cta{display:inline-flex;align-items:center;gap:10px;background:var(--green);color:#fff;text-decoration:none;padding:15px 32px;border-radius:100px;font-size:16px;font-weight:600;transition:all .25s;box-shadow:0 4px 24px rgba(106,158,72,.3)}
+.hero-cta:hover{background:var(--green-dark);transform:translateY(-2px);box-shadow:0 8px 32px rgba(106,158,72,.4)}
+.hero-cta svg{width:20px;height:20px}
+.hero-trust{display:flex;align-items:center;gap:12px;font-size:13px;color:var(--text-pale)}
+.hero-trust-dots{display:flex;gap:-4px}
+.trust-dot{width:28px;height:28px;border-radius:50%;border:2px solid var(--cream);background:var(--sand-light);display:inline-flex;align-items:center;justify-content:center;font-size:11px;margin-right:-8px}
+/* Chat mockup */
+.hero-chat{display:flex;flex-direction:column;gap:0;position:relative}
+.phone-frame{background:var(--brown);border-radius:32px;padding:16px;box-shadow:0 32px 80px rgba(46,34,24,.25),0 0 0 1px rgba(255,255,255,.05);position:relative;max-width:340px;margin:0 auto}
+.phone-header{display:flex;align-items:center;gap:10px;padding:8px 12px 16px;border-bottom:1px solid rgba(255,255,255,.06);margin-bottom:4px}
+.phone-avatar{width:38px;height:38px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.phone-contact{flex:1}
+.phone-contact-name{color:#fff;font-size:14px;font-weight:600;letter-spacing:-.2px}
+.phone-contact-status{color:rgba(255,255,255,.4);font-size:11px;margin-top:1px}
+.phone-body{display:flex;flex-direction:column;gap:8px;padding:8px 0}
+.msg{border-radius:14px;padding:10px 14px;font-size:14px;line-height:1.55;max-width:88%;position:relative}
+.msg.incoming{background:rgba(255,255,255,.08);color:rgba(255,255,255,.85);align-self:flex-start;border-bottom-left-radius:4px}
+.msg.outgoing{background:var(--green);color:#fff;align-self:flex-end;border-bottom-right-radius:4px}
+.msg.system{background:rgba(255,255,255,.05);color:rgba(255,255,255,.4);font-size:11px;text-align:center;align-self:center;border-radius:8px;padding:5px 12px}
+.msg-time{font-size:10px;color:rgba(255,255,255,.3);margin-top:4px;text-align:right}
+.msg.incoming .msg-time{text-align:left}
+.msg-badge{display:inline-block;background:rgba(106,158,72,.15);color:var(--green-light);font-size:10px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:2px 8px;border-radius:4px;margin-bottom:4px}
+.phone-input{background:rgba(255,255,255,.05);border-radius:100px;padding:10px 16px;display:flex;align-items:center;gap:8px;margin-top:8px}
+.phone-input span{color:rgba(255,255,255,.2);font-size:13px;flex:1}
+.phone-input-icon{width:28px;height:28px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center}
+/* Chat animation */
+.msg{animation:msgIn .5s ease both}
+@keyframes msgIn{from{opacity:0;transform:translateY(10px) scale(.97)}to{opacity:1;transform:translateY(0) scale(1)}}
+.msg:nth-child(1){animation-delay:.2s}
+.msg:nth-child(2){animation-delay:.7s}
+.msg:nth-child(3){animation-delay:1.2s}
+.msg:nth-child(4){animation-delay:1.7s}
+.msg:nth-child(5){animation-delay:2.1s}
+/* floating badge */
+.hero-badge{position:absolute;bottom:-20px;right:-20px;background:#fff;border-radius:16px;padding:12px 18px;box-shadow:0 8px 32px rgba(46,34,24,.15);display:flex;align-items:center;gap:10px;font-size:13px;font-weight:600;color:var(--brown);z-index:2}
+.hero-badge-icon{width:36px;height:36px;background:rgba(106,158,72,.12);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:18px}
+
+/* ─── LOGOS / SOCIAL PROOF ─── */
+.proof{padding:32px;background:var(--white);border-bottom:1px solid rgba(46,34,24,.06)}
+.proof-inner{max-width:1140px;margin:0 auto;display:flex;align-items:center;gap:32px;flex-wrap:wrap;justify-content:center}
+.proof-label{font-size:12px;color:var(--text-pale);font-weight:500;white-space:nowrap}
+.proof-tags{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.proof-tag{background:var(--cream);border:1px solid rgba(46,34,24,.08);border-radius:100px;padding:6px 16px;font-size:13px;color:var(--text-mid);font-weight:500}
+
+/* ─── HOW IT WORKS ─── */
+.how{padding:120px 32px;background:var(--white);position:relative;overflow:hidden}
+.how::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(106,158,72,.3),transparent)}
+.section-inner{max-width:1140px;margin:0 auto}
+.section-label{font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--green);margin-bottom:10px}
+.section-title{font-family:'DM Serif Display',serif;font-size:clamp(30px,3.5vw,44px);color:var(--brown);margin-bottom:64px;max-width:520px;line-height:1.15}
+.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;position:relative}
+.steps-grid::before{content:'';position:absolute;top:40px;left:16.6%;right:16.6%;height:1px;background:repeating-linear-gradient(90deg,var(--sand-light) 0,var(--sand-light) 8px,transparent 8px,transparent 16px)}
+.step{padding:0 32px 0 0;position:relative}
+.step-number{width:80px;height:80px;border-radius:20px;display:flex;align-items:center;justify-content:center;margin-bottom:28px;position:relative;z-index:1}
+.step-number.s1{background:rgba(106,158,72,.1);border:2px solid rgba(106,158,72,.2)}
+.step-number.s2{background:rgba(201,152,106,.12);border:2px solid rgba(201,152,106,.25)}
+.step-number.s3{background:rgba(46,34,24,.06);border:2px solid rgba(46,34,24,.1)}
+.step-number-inner{font-family:'DM Serif Display',serif;font-size:32px;color:var(--brown);line-height:1}
 .step h3{font-size:18px;font-weight:600;margin-bottom:10px;color:var(--brown)}
-.step p{font-size:15px;line-height:1.7;color:var(--text-mid)}
- 
-.features{padding:100px 32px;background:var(--cream)}
-.feat-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
-.feat-card{background:#fff;border-radius:16px;padding:36px;border:1px solid rgba(46,34,24,.06);transition:all .25s}
-.feat-card:hover{transform:translateY(-3px);box-shadow:0 8px 32px rgba(46,34,24,.08)}
-.feat-icon{width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;font-size:22px}
-.feat-icon.green{background:rgba(106,158,72,.12)}
-.feat-icon.sand{background:rgba(201,152,106,.15)}
-.feat-icon.brown{background:rgba(46,34,24,.08)}
-.feat-card h3{font-size:17px;font-weight:600;margin-bottom:8px;color:var(--brown)}
-.feat-card p{font-size:14px;line-height:1.7;color:var(--text-mid)}
- 
-.audience{padding:100px 32px;background:#fff}
-.aud-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
-.aud-card{text-align:center;padding:40px 28px;border-radius:16px;border:1px solid rgba(46,34,24,.06)}
-.aud-emoji{font-size:36px;margin-bottom:16px;display:block}
-.aud-card h3{font-size:17px;font-weight:600;margin-bottom:8px;color:var(--brown)}
-.aud-card p{font-size:14px;line-height:1.7;color:var(--text-mid)}
- 
-.faq{padding:100px 32px;background:var(--cream)}
-.faq-list{max-width:700px}
-.faq-item{border-bottom:1px solid rgba(46,34,24,.1);padding:24px 0}
-.faq-item:first-child{border-top:1px solid rgba(46,34,24,.1)}
-.faq-q{font-size:17px;font-weight:600;color:var(--brown);cursor:pointer;display:flex;justify-content:space-between;align-items:center}
-.faq-q::after{content:'+';font-size:22px;color:var(--sand);transition:transform .2s}
-.faq-item.open .faq-q::after{transform:rotate(45deg)}
-.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease;font-size:15px;line-height:1.7;color:var(--text-mid)}
-.faq-item.open .faq-a{max-height:200px;padding-top:12px}
- 
-.final-cta{padding:100px 32px;background:var(--brown);text-align:center}
-.final-cta h2{font-family:'DM Serif Display',serif;font-size:clamp(28px,4vw,44px);color:var(--cream);margin-bottom:16px}
-.final-cta p{color:var(--sand);font-size:18px;margin-bottom:40px;max-width:500px;margin-left:auto;margin-right:auto}
-.final-cta .hero-cta{display:inline-flex}
- 
-footer{padding:32px;background:var(--brown);border-top:1px solid rgba(201,152,106,.15);text-align:center}
-footer p{color:var(--text-pale);font-size:13px}
-footer a{color:var(--sand);text-decoration:none}
- 
-@media(max-width:768px){
-.hero-inner{grid-template-columns:1fr;gap:40px}
-.hero::before{display:none}
-.hero-visual{padding:0}
-.steps{grid-template-columns:1fr;gap:32px}
-.feat-grid{grid-template-columns:1fr}
-.aud-grid{grid-template-columns:1fr;gap:20px}
-.hero{padding:100px 24px 60px}
-.how,.features,.audience,.faq{padding:60px 24px}
- 
- .nav-links{display:none}
- 
+.step p{font-size:15px;line-height:1.75;color:var(--text-mid)}
+.step-icon{font-size:28px;position:absolute;top:20px;right:40px;opacity:.25}
+
+/* ─── SCREENSHOT SECTION ─── */
+.showcase{padding:100px 32px;background:var(--cream);position:relative}
+.showcase-inner{max-width:1140px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.showcase-text .section-label{margin-bottom:10px}
+.showcase-text h2{font-family:'DM Serif Display',serif;font-size:clamp(28px,3vw,40px);color:var(--brown);margin-bottom:20px;line-height:1.15}
+.showcase-text p{font-size:16px;line-height:1.8;color:var(--text-mid);margin-bottom:32px}
+.showcase-list{display:flex;flex-direction:column;gap:14px}
+.showcase-item{display:flex;align-items:flex-start;gap:14px}
+.showcase-item-dot{width:20px;height:20px;background:rgba(106,158,72,.12);border:2px solid rgba(106,158,72,.3);border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:2px}
+.showcase-item-dot::after{content:'';width:6px;height:6px;background:var(--green);border-radius:50%}
+.showcase-item-text{font-size:15px;color:var(--brown-mid);line-height:1.6}
+.showcase-item-text strong{font-weight:600;color:var(--brown)}
+/* PDF preview card */
+.pdf-preview{background:var(--white);border-radius:20px;box-shadow:0 24px 64px rgba(46,34,24,.12);padding:28px;position:relative;border:1px solid rgba(46,34,24,.06)}
+.pdf-preview::before{content:'PDF';position:absolute;top:16px;right:16px;background:var(--green);color:#fff;font-size:10px;font-weight:700;letter-spacing:1px;padding:4px 10px;border-radius:6px}
+.pdf-header{display:flex;align-items:center;gap:12px;margin-bottom:24px;padding-bottom:16px;border-bottom:2px solid var(--sand-pale)}
+.pdf-logo{font-family:'DM Sans';font-weight:700;font-size:18px;color:var(--brown)}
+.pdf-logo span{color:var(--green)}
+.pdf-field-name{font-size:13px;color:var(--text-pale);margin-top:1px}
+.pdf-section-title{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--green);margin-bottom:12px}
+.pdf-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px}
+.pdf-cell{background:var(--cream);border-radius:8px;padding:10px 12px}
+.pdf-cell-label{font-size:10px;color:var(--text-pale);margin-bottom:3px;text-transform:uppercase;letter-spacing:.5px}
+.pdf-cell-value{font-size:13px;font-weight:600;color:var(--brown)}
+.pdf-footer{margin-top:16px;padding-top:12px;border-top:1px solid var(--sand-pale);font-size:11px;color:var(--text-pale);text-align:center}
+.pdf-footer a{color:var(--green);font-weight:600}
+
+/* ─── FEATURES ─── */
+.features{padding:120px 32px;background:var(--white)}
+.feat-intro{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;margin-bottom:72px}
+.feat-intro-text{}
+.feat-intro-stat{display:flex;flex-direction:column;gap:24px;padding-top:8px}
+.stat-card{background:var(--cream);border-radius:16px;padding:24px 28px;border-left:3px solid var(--green)}
+.stat-number{font-family:'DM Serif Display',serif;font-size:40px;color:var(--brown);line-height:1}
+.stat-label{font-size:14px;color:var(--text-mid);margin-top:4px}
+.feat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.feat-card{background:var(--cream);border-radius:20px;padding:32px;border:1px solid rgba(46,34,24,.06);transition:all .3s;position:relative;overflow:hidden}
+.feat-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--green),var(--green-light));transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.feat-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(46,34,24,.08);background:var(--white)}
+.feat-card:hover::after{transform:scaleX(1)}
+.feat-icon{font-size:32px;margin-bottom:20px;display:block}
+.feat-card h3{font-size:17px;font-weight:600;margin-bottom:8px;color:var(--brown);letter-spacing:-.2px}
+.feat-card p{font-size:14px;line-height:1.75;color:var(--text-mid)}
+.feat-tag{display:inline-block;background:rgba(106,158,72,.08);color:var(--green-dark);font-size:11px;font-weight:600;padding:3px 10px;border-radius:100px;margin-top:16px}
+
+/* ─── AUDIENCE ─── */
+.audience{padding:120px 32px;background:var(--brown);position:relative;overflow:hidden}
+.audience::before{content:'';position:absolute;top:-100px;right:-100px;width:500px;height:500px;background:radial-gradient(circle,rgba(106,158,72,.12) 0%,transparent 70%);pointer-events:none}
+.audience::after{content:'';position:absolute;bottom:-80px;left:-80px;width:400px;height:400px;background:radial-gradient(circle,rgba(201,152,106,.08) 0%,transparent 70%);pointer-events:none}
+.audience .section-label{color:var(--green-light)}
+.audience .section-title{color:var(--sand-light)}
+.aud-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;position:relative;z-index:1}
+.aud-card{border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:40px 32px;transition:all .3s;position:relative;overflow:hidden}
+.aud-card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.04),rgba(255,255,255,0));pointer-events:none}
+.aud-card:hover{border-color:rgba(106,158,72,.4);background:rgba(255,255,255,.03);transform:translateY(-4px)}
+.aud-emoji{font-size:44px;margin-bottom:20px;display:block}
+.aud-card h3{font-size:20px;font-weight:600;margin-bottom:12px;color:var(--sand-light)}
+.aud-card p{font-size:14px;line-height:1.75;color:rgba(255,255,255,.45)}
+.aud-card-cta{display:inline-flex;align-items:center;gap:6px;color:var(--green-light);font-size:13px;font-weight:600;margin-top:20px;text-decoration:none;transition:gap .2s}
+.aud-card-cta:hover{gap:10px}
+
+/* ─── PRICING ─── */
+.pricing{padding:120px 32px;background:var(--cream)}
+.pricing-inner{max-width:1140px;margin:0 auto}
+.pricing-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:760px}
+.price-card{background:var(--white);border-radius:20px;padding:36px;border:2px solid rgba(46,34,24,.06);position:relative}
+.price-card.featured{border-color:var(--green);box-shadow:0 0 0 4px rgba(106,158,72,.08)}
+.price-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--green);color:#fff;font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:4px 16px;border-radius:100px;white-space:nowrap}
+.price-tier{font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--text-pale);margin-bottom:8px}
+.price-amount{font-family:'DM Serif Display',serif;font-size:44px;color:var(--brown);line-height:1;margin-bottom:4px}
+.price-amount sup{font-family:'DM Sans';font-size:20px;vertical-align:top;margin-top:8px;color:var(--text-mid)}
+.price-amount sub{font-family:'DM Sans';font-size:14px;vertical-align:bottom;color:var(--text-pale)}
+.price-desc{font-size:14px;color:var(--text-mid);margin-bottom:24px;padding-bottom:24px;border-bottom:1px solid var(--cream-dark)}
+.price-features{display:flex;flex-direction:column;gap:10px}
+.price-feature{display:flex;align-items:center;gap:10px;font-size:14px;color:var(--brown-mid)}
+.price-feature::before{content:'✓';color:var(--green);font-weight:700;flex-shrink:0}
+
+/* ─── FAQ ─── */
+.faq{padding:120px 32px;background:var(--white)}
+.faq-layout{display:grid;grid-template-columns:1fr 1.5fr;gap:80px;align-items:start}
+.faq-sidebar h2{font-family:'DM Serif Display',serif;font-size:clamp(28px,3vw,40px);color:var(--brown);margin-bottom:16px;line-height:1.15}
+.faq-sidebar p{font-size:15px;color:var(--text-mid);line-height:1.75;margin-bottom:28px}
+.faq-contact{display:inline-flex;align-items:center;gap:8px;color:var(--green);font-weight:600;font-size:14px;text-decoration:none;border-bottom:1px solid rgba(106,158,72,.3);padding-bottom:2px;transition:border-color .2s}
+.faq-contact:hover{border-color:var(--green)}
+.faq-list{display:flex;flex-direction:column}
+.faq-item{border-bottom:1px solid rgba(46,34,24,.08);padding:20px 0}
+.faq-item:first-child{border-top:1px solid rgba(46,34,24,.08)}
+.faq-q{font-size:16px;font-weight:600;color:var(--brown);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;user-select:none}
+.faq-toggle{width:28px;height:28px;border-radius:50%;background:var(--cream);border:1px solid rgba(46,34,24,.1);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .2s;color:var(--sand);font-size:18px;line-height:1}
+.faq-item.open .faq-toggle{background:var(--green);border-color:var(--green);color:#fff;transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease,padding .35s ease;font-size:15px;line-height:1.75;color:var(--text-mid)}
+.faq-item.open .faq-a{max-height:300px;padding-top:12px}
+
+/* ─── FINAL CTA ─── */
+.final-cta{padding:120px 32px;background:var(--brown);text-align:center;position:relative;overflow:hidden}
+.final-cta::before{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:800px;height:800px;background:radial-gradient(circle,rgba(106,158,72,.15) 0%,transparent 65%);pointer-events:none}
+.final-cta-inner{position:relative;z-index:1}
+.final-cta .hero-eyebrow{margin:0 auto 28px}
+.final-cta h2{font-family:'DM Serif Display',serif;font-size:clamp(32px,5vw,56px);color:var(--cream);margin-bottom:16px;letter-spacing:-.5px;line-height:1.1}
+.final-cta h2 em{font-style:italic;color:var(--green-light)}
+.final-cta p{color:var(--sand);font-size:18px;margin-bottom:44px;max-width:480px;margin-left:auto;margin-right:auto;line-height:1.7}
+.final-cta .hero-cta{margin:0 auto;display:inline-flex;font-size:17px;padding:16px 40px}
+.final-sub{margin-top:20px;font-size:13px;color:rgba(255,255,255,.25)}
+
+/* ─── FOOTER ─── */
+footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,152,106,.1)}
+.footer-inner{max-width:1140px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.footer-logo{font-family:'DM Sans';font-weight:700;font-size:18px;color:var(--cream);text-decoration:none;opacity:.7}
+.footer-logo span{color:var(--green)}
+.footer-links{display:flex;gap:24px;flex-wrap:wrap}
+.footer-links a{color:rgba(255,255,255,.3);font-size:13px;text-decoration:none;transition:color .2s}
+.footer-links a:hover{color:var(--sand)}
+.footer-copy{color:rgba(255,255,255,.2);font-size:12px}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:900px){
+  .hero-inner,.showcase-inner,.feat-intro,.faq-layout{grid-template-columns:1fr;gap:48px}
+  .steps-grid{grid-template-columns:1fr;gap:32px}
+  .steps-grid::before{display:none}
+  .feat-grid,.aud-grid{grid-template-columns:1fr;gap:16px}
+  .pricing-grid{grid-template-columns:1fr}
+  .hero-chat{order:-1}
+  .hero{padding:100px 24px 60px}
+  .how,.features,.audience,.faq,.showcase,.pricing,.final-cta{padding:72px 24px}
+  .nav-links a:not(.nav-cta){display:none}
+  .hero-bg-shape{width:100%;height:50%;top:auto;bottom:0;border-radius:0;opacity:.5}
+  .footer-inner{flex-direction:column;text-align:center}
+  .hero-badge{right:0;bottom:-12px}
 }
 </style>
 </head>
 <body>
- 
+
+<!-- NAV -->
 <nav id="nav">
   <div class="nav-inner">
-    <a href="https://surco.lat" class="logo" aria-label="Surco - inicio">surco<span>.</span></a>
- 
+    <a href="https://surco.lat" class="logo">surco<span>.</span></a>
     <div class="nav-links">
-      <a href="https://surco.lat/#como-funciona">Cómo funciona</a>
-      <a href="https://surco.lat/#funciones">Funciones</a>
-      <a href="https://surco.lat/blog/">Blog</a>
-      <a href="https://surco.lat/#preguntas">FAQ</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#funciones">Funciones</a>
+      <a href="https://surco.lat/blog">Blog</a>
+      <a href="#preguntas">FAQ</a>
+      <a href="https://wa.me/5491178290066" class="nav-cta" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.147.564 4.16 1.553 5.907L0 24l6.305-1.654A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.003 0-3.868-.573-5.455-1.558l-.39-.232-3.744.982.999-3.648-.254-.404A9.77 9.77 0 012.182 12 9.818 9.818 0 0112 2.182 9.818 9.818 0 0121.818 12 9.818 9.818 0 0112 21.818z"/></svg>
+        Empezar gratis
+      </a>
     </div>
- 
-    <a href="https://wa.me/5491178290066" class="nav-cta" target="_blank" rel="noopener">Empezar gratis</a>
   </div>
 </nav>
- 
+
+<!-- HERO -->
 <section class="hero">
-<div class="hero-inner">
-<div class="hero-text">
-<h1>Tu cuaderno de campo digital por <em>WhatsApp</em></h1>
-<p>Mandá un audio, una foto o un texto y Surco registra todas las labores de tu campo. Sin apps, sin planillas, sin perder tiempo.</p>
-<div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px">
-  <span style="display:inline-flex;align-items:center;gap:6px;background:#F5EDE3;color:#2E2218;font-size:13px;font-weight:600;padding:6px 14px;border-radius:100px">✓ Sin descargar nada</span>
-  <span style="display:inline-flex;align-items:center;gap:6px;background:#F5EDE3;color:#2E2218;font-size:13px;font-weight:600;padding:6px 14px;border-radius:100px">✓ Sin crear cuenta</span>
-  <span style="display:inline-flex;align-items:center;gap:6px;background:#F5EDE3;color:#2E2218;font-size:13px;font-weight:600;padding:6px 14px;border-radius:100px">✓ Gratis para empezar</span>
-</div>
- <a href="https://wa.me/5491178290066" class="hero-cta" target="_blank" rel="noopener" aria-label="Empezar gratis en WhatsApp">
-<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.147.564 4.16 1.553 5.907L0 24l6.305-1.654A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.003 0-3.868-.573-5.455-1.558l-.39-.232-3.744.982.999-3.648-.254-.404A9.77 9.77 0 012.182 12 9.818 9.818 0 0112 2.182 9.818 9.818 0 0121.818 12 9.818 9.818 0 0112 21.818z"/></svg>
-Empezar gratis
-</a>
-</div>
-<div class="hero-visual" aria-label="Ejemplo de conversación con Surco">
-<div class="chat-bubble user">Hoy se pulverizó el lote 3 con glifosato, 2 litros por hectárea, viento sur 15km</div>
-<div class="chat-bubble bot">Esto entendí:<br>📅 10/04/2026 · Pulverización · Glifosato 2 L/ha · Lote 3<br><br>¿Confirmo?</div>
-</div>
-</div>
+  <div class="hero-bg">
+    <div class="hero-bg-shape"></div>
+  </div>
+  <div class="hero-inner">
+    <div class="hero-text">
+      <div class="hero-eyebrow reveal">
+        <span></span>
+        Disponible en Argentina · Colombia · México y más
+      </div>
+      <h1 class="reveal delay-1">Tu cuaderno de campo, ahora por <em>WhatsApp</em></h1>
+      <p class="reveal delay-2">Mandá un audio o texto y Surco registra toda la actividad de tu campo. Sin apps, sin planillas, sin fricción.</p>
+      <p class="hero-sub reveal delay-2">No necesitás descargar nada ni crear cuentas.</p>
+      <div class="hero-actions reveal delay-3">
+        <a href="https://wa.me/5491178290066" class="hero-cta" target="_blank" rel="noopener" aria-label="Empezar gratis en WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width:20px;height:20px"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.147.564 4.16 1.553 5.907L0 24l6.305-1.654A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.003 0-3.868-.573-5.455-1.558l-.39-.232-3.744.982.999-3.648-.254-.404A9.77 9.77 0 012.182 12 9.818 9.818 0 0112 2.182 9.818 9.818 0 0121.818 12 9.818 9.818 0 0112 21.818z"/></svg>
+          Empezar gratis
+        </a>
+        <div class="hero-trust reveal delay-4">
+          <div class="hero-trust-dots">
+            <span class="trust-dot">🌾</span>
+            <span class="trust-dot">🔬</span>
+            <span class="trust-dot">🚜</span>
+          </div>
+          <span>Para productores, agrónomos y contratistas</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-chat reveal-right delay-2">
+      <div class="phone-frame">
+        <div class="phone-header">
+          <div class="phone-avatar">🌿</div>
+          <div class="phone-contact">
+            <div class="phone-contact-name">Surco</div>
+            <div class="phone-contact-status">en línea</div>
+          </div>
+        </div>
+        <div class="phone-body">
+          <div class="msg incoming">
+            <div class="msg-badge">surco.</div>
+            ¡Hola, Marcos! ¿Qué querés registrar hoy?
+            <div class="msg-time">14:32</div>
+          </div>
+          <div class="msg outgoing">
+            Hoy se pulverizó el lote 3 con glifosato, 2 litros por hectárea, viento sur 15km
+            <div class="msg-time">14:33 ✓✓</div>
+          </div>
+          <div class="msg incoming">
+            Esto entendí:<br>
+            📅 Hoy · Pulverización · Glifosato 2 L/ha<br>
+            📍 Lote 3 · Viento S 15 km/h<br><br>
+            ¿Confirmo el registro?
+            <div class="msg-time">14:33</div>
+          </div>
+          <div class="msg outgoing">
+            Sí
+            <div class="msg-time">14:33 ✓✓</div>
+          </div>
+          <div class="msg incoming">
+            ✅ Registrado. ¿Querés que arme el PDF del campo para compartir?
+            <div class="msg-time">14:33</div>
+          </div>
+        </div>
+        <div class="phone-input">
+          <span>Escribí o mandá un audio…</span>
+          <div class="phone-input-icon">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="white"><path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.91-3c-.49 0-.9.36-.98.85C16.52 14.2 14.47 16 12 16s-4.52-1.8-4.93-4.15c-.08-.49-.49-.85-.98-.85-.61 0-1.09.54-1 1.14.49 3 2.89 5.35 5.91 5.78V20c0 .55.45 1 1 1s1-.45 1-1v-2.08c3.02-.43 5.42-2.78 5.91-5.78.1-.6-.39-1.14-1-1.14z"/></svg>
+          </div>
+        </div>
+      </div>
+      <div class="hero-badge">
+        <div class="hero-badge-icon">📄</div>
+        <div>
+          <div style="font-size:13px;font-weight:600;color:var(--brown)">PDF generado</div>
+          <div style="font-size:11px;color:var(--text-pale)">Listo para compartir</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
- 
+
+<!-- SOCIAL PROOF BAR -->
+<div class="proof">
+  <div class="proof-inner">
+    <span class="proof-label">Usado para registrar</span>
+    <div class="proof-tags">
+      <span class="proof-tag">🌱 Siembras</span>
+      <span class="proof-tag">💧 Pulverizaciones</span>
+      <span class="proof-tag">🌾 Cosechas</span>
+      <span class="proof-tag">🧪 Fertilizaciones</span>
+      <span class="proof-tag">🐛 Identificación de plagas</span>
+      <span class="proof-tag">🐄 Registros ganaderos</span>
+    </div>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
 <section class="how" id="como-funciona">
-<div class="section-inner">
-<div class="section-label">Cómo funciona</div>
-<h2 class="section-title">Tres pasos. Sin descargar nada.</h2>
-<div class="steps" style="gap:32px">
- 
-<div style="background:#fff;border-radius:18px;border:1px solid rgba(46,34,24,.08);padding:36px 32px;position:relative;overflow:hidden">
-  <div style="position:absolute;top:0;left:0;right:0;height:4px;background:#6A9E48;border-radius:18px 18px 0 0"></div>
-  <div style="width:48px;height:48px;border-radius:14px;background:rgba(106,158,72,.12);display:flex;align-items:center;justify-content:center;margin-bottom:20px">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="#6A9E48" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <div class="section-inner">
+    <div class="section-label reveal">Cómo funciona</div>
+    <h2 class="section-title reveal delay-1">Tres pasos.<br>Sin descargar nada.</h2>
+    <div class="steps-grid">
+      <div class="step reveal delay-1">
+        <div class="step-number s1">
+          <div class="step-number-inner">1</div>
+        </div>
+        <h3>Mandá un mensaje</h3>
+        <p>Audio, texto o foto por WhatsApp. Como le contarías a un colega qué se hizo en el campo ese día. Sin formularios ni campos que llenar.</p>
+      </div>
+      <div class="step reveal delay-2">
+        <div class="step-number s2">
+          <div class="step-number-inner">2</div>
+        </div>
+        <h3>Surco lo registra</h3>
+        <p>La IA extrae fecha, lote, tipo de labor, productos y dosis. Te muestra un resumen para que confirmes antes de guardar. Todo en segundos.</p>
+      </div>
+      <div class="step reveal delay-3">
+        <div class="step-number s3">
+          <div class="step-number-inner">3</div>
+        </div>
+        <h3>Compartí el reporte</h3>
+        <p>Generá un PDF profesional del cuaderno de campo y compartilo con quien necesites: el dueño del campo, tu cliente o la cooperativa.</p>
+      </div>
+    </div>
   </div>
-  <div class="step-num">1</div>
-  <h3>Mandá un mensaje</h3>
-  <p>Audio, texto o foto por WhatsApp. Como le contarías a un colega qué se hizo en el campo. Registrá pulverizaciones, siembras, cosechas y cualquier labor agrícola.</p>
-  <div style="margin-top:20px;background:#F5EDE3;border-radius:12px;padding:14px 16px">
-    <div style="font-size:11px;font-weight:600;color:#6A9E48;letter-spacing:.5px;text-transform:uppercase;margin-bottom:6px">ejemplo</div>
-    <p style="font-size:13px;color:#2E2218;margin:0;line-height:1.5"><em>🎙 "Hoy se pulverizó el lote 3 con glifosato, 2 litros por ha"</em></p>
-  </div>
-</div>
- 
-<div style="background:#fff;border-radius:18px;border:1px solid rgba(46,34,24,.08);padding:36px 32px;position:relative;overflow:hidden">
-  <div style="position:absolute;top:0;left:0;right:0;height:4px;background:#C9986A;border-radius:18px 18px 0 0"></div>
-  <div style="width:48px;height:48px;border-radius:14px;background:rgba(201,152,106,.15);display:flex;align-items:center;justify-content:center;margin-bottom:20px">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><polyline points="9 11 12 14 22 4" stroke="#C9986A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke="#C9986A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-  </div>
-  <div class="step-num">2</div>
-  <h3>Surco lo registra automáticamente</h3>
-  <p>La inteligencia artificial extrae fecha, lote, tipo de labor, productos y dosis. Te muestra un resumen para que confirmes antes de guardar.</p>
-  <div style="margin-top:20px;background:#F5EDE3;border-radius:12px;padding:14px 16px">
-    <div style="font-size:11px;font-weight:600;color:#C9986A;letter-spacing:.5px;text-transform:uppercase;margin-bottom:6px">resultado</div>
-    <p style="font-size:13px;color:#2E2218;margin:0;line-height:1.6">📅 10/04 · Pulverización · Glifosato 2 L/ha · Lote 3<br><span style="color:#6A9E48;font-weight:600">¿Confirmo?</span></p>
-  </div>
-</div>
- 
-<div style="background:#fff;border-radius:18px;border:1px solid rgba(46,34,24,.08);padding:36px 32px;position:relative;overflow:hidden">
-  <div style="position:absolute;top:0;left:0;right:0;height:4px;background:#2E2218;border-radius:18px 18px 0 0"></div>
-  <div style="width:48px;height:48px;border-radius:14px;background:rgba(46,34,24,.08);display:flex;align-items:center;justify-content:center;margin-bottom:20px">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" stroke="#2E2218" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><polyline points="14 2 14 8 20 8" stroke="#2E2218" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><line x1="16" y1="13" x2="8" y2="13" stroke="#2E2218" stroke-width="2" stroke-linecap="round"/><line x1="16" y1="17" x2="8" y2="17" stroke="#2E2218" stroke-width="2" stroke-linecap="round"/></svg>
-  </div>
-  <div class="step-num">3</div>
-  <h3>Compartí el reporte</h3>
-  <p>Generá un PDF profesional del cuaderno de campo y compartilo con el dueño del campo, tu agrónomo o quien necesites.</p>
-  <div style="margin-top:20px;background:#F5EDE3;border-radius:12px;padding:14px 16px">
-    <div style="font-size:11px;font-weight:600;color:#2E2218;letter-spacing:.5px;text-transform:uppercase;margin-bottom:6px">PDF listo para compartir</div>
-    <p style="font-size:13px;color:#5A5A5A;margin:0;line-height:1.5">Cuaderno de campo · Campo El Rosario · Abril 2026</p>
-  </div>
-</div>
-</div>
-</div>
-</div>
 </section>
- 
-<section class="features" id="funciones">
-<div class="section-inner">
-<div class="section-label">Qué podés hacer</div>
-<h2 class="section-title">Todo desde WhatsApp</h2>
-<div class="feat-grid">
-<div class="feat-card">
-<div class="feat-icon green" aria-hidden="true">📋</div>
-<h3>Cuaderno de campo digital</h3>
-<p>Registrá pulverizaciones, siembras, cosechas, fertilizaciones y cualquier labor agrícola. Por audio o texto, en 10 segundos. Cumplí con la trazabilidad sin esfuerzo.</p>
-</div>
-<div class="feat-card">
-<div class="feat-icon sand" aria-hidden="true">📸</div>
-<h3>Identificación de plagas y enfermedades</h3>
-<p>Mandá una foto de la hoja, el insecto o la maleza y Surco te dice qué puede ser, con recomendaciones de manejo agronómico.</p>
-</div>
-<div class="feat-card">
-<div class="feat-icon brown" aria-hidden="true">📊</div>
-<h3>Historial y reportes PDF</h3>
-<p>Consultá qué se hizo en cada lote, pedí resúmenes por semana o mes, y exportá todo en un PDF profesional para compartir.</p>
-</div>
-<div class="feat-card">
-<div class="feat-icon green" aria-hidden="true">🐄</div>
-<h3>Registro ganadero</h3>
-<p>Vacunaciones, partos, destetes, desparasitaciones, movimientos. Todo registrado por voz con el detalle que necesitás.</p>
-</div>
-</div>
-</div>
+
+<!-- SHOWCASE: PDF + features list -->
+<section class="showcase" id="funciones">
+  <div class="section-inner">
+    <div class="showcase-inner">
+      <div class="showcase-text reveal-left">
+        <div class="section-label">Reportes automáticos</div>
+        <h2>Un PDF profesional,<br>directo al WhatsApp</h2>
+        <p>Cada registro queda guardado y organizado. En cualquier momento podés pedirle a Surco que arme el historial del campo en un PDF para compartir.</p>
+        <div class="showcase-list">
+          <div class="showcase-item">
+            <div class="showcase-item-dot"></div>
+            <div class="showcase-item-text"><strong>Historial completo</strong> con todas las labores ordenadas por fecha y lote</div>
+          </div>
+          <div class="showcase-item">
+            <div class="showcase-item-dot"></div>
+            <div class="showcase-item-text"><strong>Datos de productos</strong>: nombre, dosis, unidad y condiciones de aplicación</div>
+          </div>
+          <div class="showcase-item">
+            <div class="showcase-item-dot"></div>
+            <div class="showcase-item-text"><strong>Listo para compartir</strong> con productores, cooperativas o auditorías</div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal-right delay-2">
+        <div class="pdf-preview">
+          <div class="pdf-header">
+            <div>
+              <div class="pdf-logo">surco<span>.</span></div>
+              <div class="pdf-field-name">Campo El Talar · Lote 3</div>
+            </div>
+          </div>
+          <div class="pdf-section-title">Registro de labor</div>
+          <div class="pdf-row">
+            <div class="pdf-cell">
+              <div class="pdf-cell-label">Fecha</div>
+              <div class="pdf-cell-value">02/05/2026</div>
+            </div>
+            <div class="pdf-cell">
+              <div class="pdf-cell-label">Labor</div>
+              <div class="pdf-cell-value">Pulverización</div>
+            </div>
+            <div class="pdf-cell">
+              <div class="pdf-cell-label">Producto</div>
+              <div class="pdf-cell-value">Glifosato</div>
+            </div>
+            <div class="pdf-cell">
+              <div class="pdf-cell-label">Dosis</div>
+              <div class="pdf-cell-value">2 L/ha</div>
+            </div>
+            <div class="pdf-cell">
+              <div class="pdf-cell-label">Superficie</div>
+              <div class="pdf-cell-value">48 ha</div>
+            </div>
+            <div class="pdf-cell">
+              <div class="pdf-cell-label">Condiciones</div>
+              <div class="pdf-cell-value">Viento S 15 km/h</div>
+            </div>
+          </div>
+          <div class="pdf-footer">Generado con <a href="https://surco.lat">surco.lat</a> · Empezá gratis por WhatsApp</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
- 
+
+<!-- FEATURES -->
+<section class="features">
+  <div class="section-inner">
+    <div class="feat-intro">
+      <div class="reveal-left">
+        <div class="section-label">Todo desde WhatsApp</div>
+        <h2 class="section-title" style="margin-bottom:0">Sin apps.<br>Sin planillas.<br>Sin fricción.</h2>
+      </div>
+      <div class="feat-intro-stat reveal-right delay-1">
+        <div class="stat-card">
+          <div class="stat-number">10"</div>
+          <div class="stat-label">para registrar una labor por audio</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">por WhatsApp · sin apps ni cuentas</div>
+        </div>
+      </div>
+    </div>
+    <div class="feat-grid">
+      <div class="feat-card reveal delay-1">
+        <span class="feat-icon">📋</span>
+        <h3>Cuaderno de campo digital</h3>
+        <p>Registrá pulverizaciones, siembras, cosechas y fertilizaciones por audio o texto. Todo queda organizado por lote y fecha.</p>
+        <span class="feat-tag">Trazabilidad</span>
+      </div>
+      <div class="feat-card reveal delay-2">
+        <span class="feat-icon">📸</span>
+        <h3>Identificación de plagas</h3>
+        <p>Mandá una foto de la hoja o el insecto y Surco te dice qué puede ser, con recomendaciones de manejo agronómico.</p>
+        <span class="feat-tag">IA Vision</span>
+      </div>
+      <div class="feat-card reveal delay-3">
+        <span class="feat-icon">📊</span>
+        <h3>Historial y reportes PDF</h3>
+        <p>Consultá qué se hizo en cada lote y exportá el historial completo como PDF profesional para compartir con quien necesites.</p>
+        <span class="feat-tag">Exportable</span>
+      </div>
+      <div class="feat-card reveal delay-1">
+        <span class="feat-icon">🎤</span>
+        <h3>Registro por audio</h3>
+        <p>El audio se transcribe y la IA extrae todos los datos automáticamente. Como contarle a un colega qué hiciste en el campo.</p>
+        <span class="feat-tag">Whisper AI</span>
+      </div>
+      <div class="feat-card reveal delay-2">
+        <span class="feat-icon">🐄</span>
+        <h3>Registro ganadero</h3>
+        <p>Vacunaciones, partos, destetes, desparasitaciones y movimientos de hacienda. Todo por voz desde WhatsApp.</p>
+        <span class="feat-tag">Ganadería</span>
+      </div>
+      <div class="feat-card reveal delay-3">
+        <span class="feat-icon">📋</span>
+        <h3>Presupuestos de labores</h3>
+        <p>Para contratistas: dictá los detalles del trabajo y Surco arma el presupuesto estructurado listo para enviar al cliente.</p>
+        <span class="feat-tag">Contratistas</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AUDIENCE -->
 <section class="audience" id="para-quien">
-<div class="section-inner">
-<div class="section-label">Para quién es</div>
-<h2 class="section-title">Diseñado para el campo.</h2>
-<div class="aud-grid">
-<div class="aud-card">
-<span class="aud-emoji" aria-hidden="true">🌾</span>
-<h3>Productores agropecuarios</h3>
-<p>Tené todo el historial de tu campo organizado sin llenar planillas. Recibí reportes automáticos de lo que hace tu agrónomo en cada lote.</p>
-</div>
-<div class="aud-card">
-<span class="aud-emoji" aria-hidden="true">🔬</span>
-<h3>Ingenieros agrónomos</h3>
-<p>Registrá las labores de tus clientes en 10 segundos por audio. Generá reportes PDF profesionales para compartir con los productores.</p>
-</div>
-<div class="aud-card">
-<span class="aud-emoji" aria-hidden="true">🚜</span>
-<h3>Contratistas rurales</h3>
-<p>Llevá un historial organizado de cada labor, campo y cliente. Armá presupuestos de pulverización, cosecha y siembra al toque.</p>
-</div>
-</div>
-</div>
+  <div class="section-inner">
+    <div class="section-label reveal">Para quién es</div>
+    <h2 class="section-title reveal delay-1">Hecho para quienes<br>trabajan el campo</h2>
+    <div class="aud-grid">
+      <div class="aud-card reveal delay-1">
+        <span class="aud-emoji">🌾</span>
+        <h3>Productores agropecuarios</h3>
+        <p>Tené todo el historial de tu campo organizado sin llenar planillas. Recibí reportes automáticos de lo que hace tu agrónomo en cada lote.</p>
+        <a href="https://wa.me/5491178290066" class="aud-card-cta" target="_blank" rel="noopener">Empezar →</a>
+      </div>
+      <div class="aud-card reveal delay-2">
+        <span class="aud-emoji">🔬</span>
+        <h3>Ingenieros agrónomos</h3>
+        <p>Registrá las labores de tus clientes en 10 segundos por audio. Generá PDFs profesionales con tu logo para compartir con los productores.</p>
+        <a href="https://wa.me/5491178290066" class="aud-card-cta" target="_blank" rel="noopener">Empezar →</a>
+      </div>
+      <div class="aud-card reveal delay-3">
+        <span class="aud-emoji">🚜</span>
+        <h3>Contratistas rurales</h3>
+        <p>Llevá un historial organizado de cada labor, campo y cliente. Armá presupuestos de pulverización, cosecha y siembra al toque.</p>
+        <a href="https://wa.me/5491178290066" class="aud-card-cta" target="_blank" rel="noopener">Empezar →</a>
+      </div>
+    </div>
+  </div>
 </section>
- 
+
+<!-- PRICING -->
+<section class="pricing" id="planes">
+  <div class="pricing-inner">
+    <div class="section-label reveal">Precios</div>
+    <h2 class="section-title reveal delay-1">Empezá gratis.<br>Crecé cuando quieras.</h2>
+    <div class="pricing-grid">
+      <div class="price-card reveal delay-1">
+        <div class="price-tier">Gratis</div>
+        <div class="price-amount">$0</div>
+        <div class="price-desc">Para empezar a registrar sin compromiso</div>
+        <div class="price-features">
+          <div class="price-feature">1 campo</div>
+          <div class="price-feature">Lotes ilimitados</div>
+          <div class="price-feature">Historial últimos 30 días</div>
+          <div class="price-feature">5 fotos de plagas por mes</div>
+          <div class="price-feature">3 PDFs por mes</div>
+          <div class="price-feature">Registro por audio, texto y foto</div>
+        </div>
+      </div>
+      <div class="price-card featured reveal delay-2">
+        <div class="price-badge">Lista de espera abierta</div>
+        <div class="price-tier">Pro</div>
+        <div class="price-amount" style="font-size:28px;padding-top:4px">Próximamente</div>
+        <div class="price-desc">Para agrónomos y productores que manejan más de un campo</div>
+        <div class="price-features">
+          <div class="price-feature">Campos ilimitados</div>
+          <div class="price-feature">Historial completo sin límite</div>
+          <div class="price-feature">Dashboard web personalizado — accedé desde cualquier computadora y tenés todo el control de tus datos</div>
+          <div class="price-feature">PDFs ilimitados</div>
+        </div>
+        <a href="mailto:hola@surco.lat?subject=Lista de espera Pro&body=Hola, me interesa el plan Pro de Surco." style="display:inline-flex;align-items:center;gap:8px;margin-top:24px;background:var(--green);color:#fff;text-decoration:none;padding:12px 24px;border-radius:100px;font-size:14px;font-weight:600;transition:all .2s" onmouseover="this.style.background='var(--green-dark)'" onmouseout="this.style.background='var(--green)'">
+          Anotarme en la lista →
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
 <section class="faq" id="preguntas">
-<div class="section-inner">
-<div class="section-label">Preguntas frecuentes</div>
-<h2 class="section-title">Lo que nos preguntan siempre</h2>
-<div class="faq-list">
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">¿Qué es Surco?</div>
-<div class="faq-a">Surco es un cuaderno de campo digital que funciona 100% por WhatsApp. Registrás labores agrícolas por audio, texto o foto, y Surco organiza todo automáticamente con inteligencia artificial. No necesitás descargar ninguna app.</div>
-</div>
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">¿Cuánto cuesta?</div>
-<div class="faq-a">Surco es gratis para empezar. Podés registrar labores, identificar plagas por foto y generar reportes PDF sin costo. Más adelante va a haber un plan Pro con funciones avanzadas como multi-campo, imágenes satelitales y alertas.</div>
-</div>
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">¿Necesito descargar una app?</div>
-<div class="faq-a">No. Surco funciona directamente desde WhatsApp. No necesitás descargar ninguna aplicación, crear cuentas ni aprender a usar nada nuevo. Si sabés mandar un audio por WhatsApp, sabés usar Surco.</div>
-</div>
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">¿Funciona con audios?</div>
-<div class="faq-a">Sí. Podés mandar un audio describiendo la labor como si le contaras a un colega. Surco transcribe el audio y extrae automáticamente la fecha, el lote, el tipo de labor, los productos y las dosis.</div>
-</div>
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">¿Mis datos están seguros?</div>
-<div class="faq-a">Sí. Tus datos son privados y solo vos podés acceder a ellos. No compartimos información con terceros. Cada campo tiene su propio historial protegido.</div>
-</div>
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">¿Sirve para ganadería?</div>
-<div class="faq-a">Sí. Podés registrar vacunaciones, partos, destetes, desparasitaciones y movimientos de hacienda. Todo por audio o texto desde WhatsApp.</div>
-</div>
-<div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">¿Está disponible en toda América Latina?</div>
-<div class="faq-a">Sí. Surco funciona en cualquier país donde uses WhatsApp. Está disponible para productores, agrónomos y contratistas de Argentina, Colombia, México, Uruguay, Paraguay y toda la región.</div>
-</div>
- <div class="faq-item">
-<div class="faq-q" onclick="this.parentElement.classList.toggle('open')">¿Hay un límite de mensajes o conversaciones?</div>
-<div class="faq-a">No. Durante la etapa de lanzamiento podés conversar con Surco sin límite de mensajes. No cortamos la conversación ni te pedimos que pagues para seguir usando. El plan gratis incluye registro de labores, identificación de plagas y reportes PDF sin restricción de uso.</div>
-</div>
-</div>
-</div>
+  <div class="section-inner">
+    <div class="faq-layout">
+      <div class="faq-sidebar reveal-left">
+        <div class="section-label">FAQ</div>
+        <h2>Lo que nos preguntan siempre</h2>
+        <p>Si tenés una pregunta que no está acá, escribinos directo.</p>
+        <a href="mailto:hola@surco.lat" class="faq-contact">hola@surco.lat →</a>
+      </div>
+      <div class="faq-list reveal-right delay-1">
+        <div class="faq-item">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            ¿Qué es Surco?
+            <div class="faq-toggle">+</div>
+          </div>
+          <div class="faq-a">Surco es un cuaderno de campo digital que funciona 100% por WhatsApp. Registrás labores agrícolas por audio, texto o foto, y Surco organiza todo automáticamente con inteligencia artificial. No necesitás descargar ninguna app.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            ¿Cuánto cuesta?
+            <div class="faq-toggle">+</div>
+          </div>
+          <div class="faq-a">Surco es gratis para empezar, sin límite de conversaciones mientras estamos en etapa de lanzamiento. Podés registrar labores, identificar plagas por foto y generar reportes PDF sin costo. Más adelante habrá un plan Pro con funciones avanzadas.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            ¿Necesito descargar una app?
+            <div class="faq-toggle">+</div>
+          </div>
+          <div class="faq-a">No. Surco funciona directamente desde WhatsApp. No necesitás descargar ninguna aplicación, crear cuentas ni aprender a usar nada nuevo. Si sabés mandar un audio por WhatsApp, sabés usar Surco.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            ¿Funciona con audios en voz?
+            <div class="faq-toggle">+</div>
+          </div>
+          <div class="faq-a">Sí. Podés mandar un audio describiendo la labor como si le contaras a un colega. Surco transcribe el audio y extrae automáticamente la fecha, el lote, el tipo de labor, los productos y las dosis.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            ¿Mis datos están seguros?
+            <div class="faq-toggle">+</div>
+          </div>
+          <div class="faq-a">Sí. Tus datos son privados y solo vos podés acceder a ellos. No compartimos información con terceros. Cada campo tiene su propio historial protegido.</div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
+            ¿Está disponible en toda América Latina?
+            <div class="faq-toggle">+</div>
+          </div>
+          <div class="faq-a">Sí. Surco funciona en cualquier país donde uses WhatsApp. Está disponible para productores, agrónomos y contratistas de Argentina, Colombia, México, Uruguay, Paraguay y toda la región.</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
- 
+
+<!-- FINAL CTA -->
 <section class="final-cta">
-<h2>Empezá a registrar hoy</h2>
-<p>Gratis. Sin descargar nada. Mandá un "Hola" por WhatsApp y en 30 segundos ya estás registrando.</p>
-<a href="https://wa.me/5491178290066" class="hero-cta" target="_blank" rel="noopener" aria-label="Abrir WhatsApp para empezar">
-<svg viewBox="0 0 24 24" fill="currentColor" style="width:22px;height:22px" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.147.564 4.16 1.553 5.907L0 24l6.305-1.654A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.003 0-3.868-.573-5.455-1.558l-.39-.232-3.744.982.999-3.648-.254-.404A9.77 9.77 0 012.182 12 9.818 9.818 0 0112 2.182 9.818 9.818 0 0121.818 12 9.818 9.818 0 0112 21.818z"/></svg>
-Abrir WhatsApp
-</a>
+  <div class="final-cta-inner">
+    <div class="hero-eyebrow reveal" style="color:var(--green-light);border-color:rgba(106,158,72,.3);background:rgba(106,158,72,.1)">
+      <span style="background:var(--green-light)"></span>
+      Gratis · Sin descargar nada · Empezás en 30 segundos
+    </div>
+    <h2 class="reveal delay-1">Registrá el campo<br><em>desde donde estés</em></h2>
+    <p class="reveal delay-2">Mandá un "Hola" por WhatsApp y en 30 segundos ya estás registrando tu primer labor.</p>
+    <a href="https://wa.me/5491178290066" class="hero-cta reveal delay-3" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor" style="width:20px;height:20px"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.147.564 4.16 1.553 5.907L0 24l6.305-1.654A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.003 0-3.868-.573-5.455-1.558l-.39-.232-3.744.982.999-3.648-.254-.404A9.77 9.77 0 012.182 12 9.818 9.818 0 0112 2.182 9.818 9.818 0 0121.818 12 9.818 9.818 0 0112 21.818z"/></svg>
+      Abrir WhatsApp
+    </a>
+    <div class="final-sub reveal delay-4">+54 9 11 7829-0066 · surco.lat</div>
+  </div>
 </section>
- 
+
+<!-- FOOTER -->
 <footer>
-<p><a href="https://surco.lat" aria-label="Surco">surco<span style="color:#6A9E48">.</span></a> — América Latina — <a href="mailto:hola@surco.lat">hola@surco.lat</a></p>
+  <div class="footer-inner">
+    <a href="https://surco.lat" class="footer-logo">surco<span>.</span></a>
+    <div class="footer-links">
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#funciones">Funciones</a>
+      <a href="#planes">Planes</a>
+      <a href="#preguntas">FAQ</a>
+      <a href="mailto:hola@surco.lat">hola@surco.lat</a>
+      <a href="https://agustinadieser-create.github.io/surco-privacidad/" target="_blank" rel="noopener">Privacidad</a>
+    </div>
+    <div class="footer-copy">© 2026 Surco · América Latina</div>
+  </div>
 </footer>
- 
+
 <script>
-const nav=document.getElementById('nav');
-window.addEventListener('scroll',()=>{nav.classList.toggle('scrolled',window.scrollY>40)});
+// NAV scroll
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('scrolled', window.scrollY > 40);
+}, { passive: true });
+
+// Scroll reveal
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('visible');
+      observer.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => {
+  observer.observe(el);
+});
 </script>
 </body>
 </html>
- 
