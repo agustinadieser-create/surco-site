@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Surco — Cuaderno de campo digital por WhatsApp | Registro de labores agro</title>
-<meta name="description" content="Registrá labores agrícolas, identificá plagas por foto y llevá el historial de tu campo desde WhatsApp. Sin apps, sin planillas. Gratis para productores, agrónomos y contratistas en Argentina y toda América Latina.">
+<title>Surco | WhatsApp para ordenar registros y pendientes del campo</title>
+<meta name="description" content="Surco ordena audios, mensajes y fotos de WhatsApp en órdenes de trabajo, pendientes, registros de labores e historial del campo. Para productores, agrónomos y contratistas.">
 <meta name="keywords" content="cuaderno de campo digital, bitácora de campo, diario de campo, registro de labores agrícolas, WhatsApp agro, gestión agrícola, cuaderno de campo WhatsApp, agro LATAM, registro fitosanitario, trazabilidad agrícola, agrónomo, contratista rural, plagas agrícolas, reporte de campo PDF, agricultura Argentina, agricultura Colombia, agricultura México">
 <meta name="author" content="Surco - Agustina Dieser">
 <meta name="robots" content="index, follow">
@@ -19,17 +19,17 @@
 
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://surco.lat/">
-<meta property="og:title" content="Surco — Cuaderno de campo digital por WhatsApp">
-<meta property="og:description" content="Registrá labores, identificá plagas y llevá el historial de tu campo desde WhatsApp. Gratis. Para toda América Latina.">
+<meta property="og:title" content="Surco | WhatsApp para ordenar registros y pendientes del campo">
+<meta property="og:description" content="Surco ordena audios, mensajes y fotos de WhatsApp en órdenes de trabajo, pendientes, registros de labores e historial del campo.">
 <meta property="og:locale" content="es_419">
 <meta property="og:site_name" content="Surco">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Surco — Cuaderno de campo digital por WhatsApp">
-<meta name="twitter:description" content="Registrá labores, identificá plagas y llevá el historial de tu campo desde WhatsApp. Gratis.">
+<meta name="twitter:title" content="Surco | WhatsApp para ordenar registros y pendientes del campo">
+<meta name="twitter:description" content="Audios, mensajes y fotos de WhatsApp ordenados como órdenes, pendientes, registros de labores e historial del campo.">
 
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%236A9E48'/></svg>">
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Surco","description":"Cuaderno de campo digital por WhatsApp.","url":"https://surco.lat","applicationCategory":"BusinessApplication","operatingSystem":"WhatsApp","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Agustina Dieser","jobTitle":"Ingeniera Agrónoma"},"areaServed":[{"@type":"Country","name":"Argentina"},{"@type":"Country","name":"Colombia"},{"@type":"Country","name":"Mexico"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Surco","description":"Surco ordena audios, mensajes y fotos de WhatsApp en órdenes de trabajo, pendientes, registros de labores, historial del campo y reportes PDF.","url":"https://surco.lat","applicationCategory":"BusinessApplication","operatingSystem":"WhatsApp","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"Agustina Dieser","jobTitle":"Ingeniera Agrónoma"},"areaServed":[{"@type":"Country","name":"Argentina"},{"@type":"Country","name":"Colombia"},{"@type":"Country","name":"Mexico"}]}</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
@@ -143,8 +143,8 @@ nav.scrolled{background:rgba(253,251,247,.96);backdrop-filter:blur(16px);box-sha
 .proof-tags{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
 .proof-tag{background:var(--cream);border:1px solid rgba(46,34,24,.08);border-radius:100px;padding:6px 16px;font-size:13px;color:var(--text-mid);font-weight:500}
 
-/* ─── HOW IT WORKS ─── */
-.how{padding:120px 32px;background:var(--white);position:relative;overflow:hidden}
+	/* ─── HOW IT WORKS ─── */
+	.how{padding:120px 32px;background:var(--white);position:relative;overflow:hidden}
 .how::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(106,158,72,.3),transparent)}
 .section-inner{max-width:1140px;margin:0 auto}
 .section-label{font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--green);margin-bottom:10px}
@@ -158,8 +158,14 @@ nav.scrolled{background:rgba(253,251,247,.96);backdrop-filter:blur(16px);box-sha
 .step-number.s3{background:rgba(46,34,24,.06);border:2px solid rgba(46,34,24,.1)}
 .step-number-inner{font-family:'DM Serif Display',serif;font-size:32px;color:var(--brown);line-height:1}
 .step h3{font-size:18px;font-weight:600;margin-bottom:10px;color:var(--brown)}
-.step p{font-size:15px;line-height:1.75;color:var(--text-mid)}
-.step-icon{font-size:28px;position:absolute;top:20px;right:40px;opacity:.25}
+	.step p{font-size:15px;line-height:1.75;color:var(--text-mid)}
+	.step-icon{font-size:28px;position:absolute;top:20px;right:40px;opacity:.25}
+	
+	/* ─── PROBLEM ─── */
+	.problem{padding:100px 32px;background:var(--cream)}
+	.problem-card{max-width:760px;background:var(--white);border:1px solid rgba(46,34,24,.06);border-radius:20px;padding:44px;box-shadow:0 18px 56px rgba(46,34,24,.06)}
+	.problem-card h2{font-family:'DM Serif Display',serif;font-size:clamp(28px,3.4vw,42px);line-height:1.15;color:var(--brown);margin-bottom:18px}
+	.problem-card p{font-size:17px;line-height:1.8;color:var(--text-mid)}
 
 /* ─── SCREENSHOT SECTION ─── */
 .showcase{padding:100px 32px;background:var(--cream);position:relative}
@@ -212,7 +218,7 @@ nav.scrolled{background:rgba(253,251,247,.96);backdrop-filter:blur(16px);box-sha
 .audience::after{content:'';position:absolute;bottom:-80px;left:-80px;width:400px;height:400px;background:radial-gradient(circle,rgba(201,152,106,.08) 0%,transparent 70%);pointer-events:none}
 .audience .section-label{color:var(--green-light)}
 .audience .section-title{color:var(--sand-light)}
-.aud-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;position:relative;z-index:1}
+	.aud-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;position:relative;z-index:1}
 .aud-card{border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:40px 32px;transition:all .3s;position:relative;overflow:hidden}
 .aud-card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.04),rgba(255,255,255,0));pointer-events:none}
 .aud-card:hover{border-color:rgba(106,158,72,.4);background:rgba(255,255,255,.03);transform:translateY(-4px)}
@@ -284,7 +290,7 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
   .pricing-grid{grid-template-columns:1fr}
   .hero-chat{order:-1}
   .hero{padding:100px 24px 60px}
-  .how,.features,.audience,.faq,.showcase,.pricing,.final-cta{padding:72px 24px}
+	  .how,.problem,.features,.audience,.faq,.showcase,.pricing,.final-cta{padding:72px 24px}
   .nav-links a:not(.nav-cta){display:none}
   .hero-bg-shape{width:100%;height:50%;top:auto;bottom:0;border-radius:0;opacity:.5}
   .footer-inner{flex-direction:column;text-align:center}
@@ -302,10 +308,10 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
       <a href="#como-funciona">Cómo funciona</a>
       <a href="#funciones">Funciones</a>
       <a href="https://surco.lat/blog">Blog</a>
-      <a href="#preguntas">FAQ</a>
+	      <a href="#preguntas">Preguntas</a>
       <a href="https://wa.me/5491178290066" class="nav-cta" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.147.564 4.16 1.553 5.907L0 24l6.305-1.654A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.003 0-3.868-.573-5.455-1.558l-.39-.232-3.744.982.999-3.648-.254-.404A9.77 9.77 0 012.182 12 9.818 9.818 0 0112 2.182 9.818 9.818 0 0121.818 12 9.818 9.818 0 0112 21.818z"/></svg>
-        Empezar gratis
+	        Probar Surco por WhatsApp
       </a>
     </div>
   </div>
@@ -322,13 +328,13 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
         <span></span>
         Disponible en Argentina · Colombia · México y más
       </div>
-      <h1 class="reveal delay-1">Tu cuaderno de campo, ahora por <em>WhatsApp</em></h1>
-      <p class="reveal delay-2">Mandá un audio o texto y Surco registra toda la actividad de tu campo. Sin apps, sin planillas, sin fricción.</p>
-      <p class="hero-sub reveal delay-2">No necesitás descargar nada ni crear cuentas.</p>
+	      <h1 class="reveal delay-1">Ordená el campo desde <em>WhatsApp</em>, sin perder audios, mensajes ni fotos</h1>
+	      <p class="reveal delay-2">Surco ayuda a convertir lo que se habla y se manda todos los días en órdenes de trabajo, pendientes y registros por lote, tarea, responsable y fecha.</p>
+	      <p class="hero-sub reveal delay-2">Tu cuaderno de campo digital, sin descargar otra aplicación, sin planillas y sin perder información en los chats.</p>
       <div class="hero-actions reveal delay-3">
-        <a href="https://wa.me/5491178290066" class="hero-cta" target="_blank" rel="noopener" aria-label="Empezar gratis en WhatsApp">
+	        <a href="https://wa.me/5491178290066" class="hero-cta" target="_blank" rel="noopener" aria-label="Probar Surco por WhatsApp">
           <svg viewBox="0 0 24 24" fill="currentColor" style="width:20px;height:20px"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.147.564 4.16 1.553 5.907L0 24l6.305-1.654A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.003 0-3.868-.573-5.455-1.558l-.39-.232-3.744.982.999-3.648-.254-.404A9.77 9.77 0 012.182 12 9.818 9.818 0 0112 2.182 9.818 9.818 0 0121.818 12 9.818 9.818 0 0112 21.818z"/></svg>
-          Empezar gratis
+	          Probar Surco por WhatsApp
         </a>
         <div class="hero-trust reveal delay-4">
           <div class="hero-trust-dots">
@@ -352,18 +358,18 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
         <div class="phone-body">
           <div class="msg incoming">
             <div class="msg-badge">surco.</div>
-            ¡Hola, Marcos! ¿Qué querés registrar hoy?
+	            ¡Hola, Marcos! ¿Qué querés ordenar hoy?
             <div class="msg-time">14:32</div>
           </div>
           <div class="msg outgoing">
-            Hoy se pulverizó el lote 3 con glifosato, 2 litros por hectárea, viento sur 15km
+	            Decile a Juan que mañana revise malezas en el lote 3. Si está para aplicar, que lo deje pendiente para el viernes.
             <div class="msg-time">14:33 ✓✓</div>
           </div>
           <div class="msg incoming">
-            Esto entendí:<br>
-            📅 Hoy · Pulverización · Glifosato 2 L/ha<br>
-            📍 Lote 3 · Viento S 15 km/h<br><br>
-            ¿Confirmo el registro?
+	            Esto entendí:<br>
+	            Orden de trabajo · Responsable: Juan<br>
+	            Lote 3 · Revisar malezas<br><br>
+	            Pendiente: posible aplicación el viernes. ¿Confirmo?
             <div class="msg-time">14:33</div>
           </div>
           <div class="msg outgoing">
@@ -371,7 +377,7 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
             <div class="msg-time">14:33 ✓✓</div>
           </div>
           <div class="msg incoming">
-            ✅ Registrado. ¿Querés que arme el PDF del campo para compartir?
+	            ✅ Listo. Queda guardado para consultar después o armar un reporte.
             <div class="msg-time">14:33</div>
           </div>
         </div>
@@ -385,8 +391,8 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
       <div class="hero-badge">
         <div class="hero-badge-icon">📄</div>
         <div>
-          <div style="font-size:13px;font-weight:600;color:var(--brown)">PDF generado</div>
-          <div style="font-size:11px;color:var(--text-pale)">Listo para compartir</div>
+	          <div style="font-size:13px;font-weight:600;color:var(--brown)">Pendiente guardado</div>
+	          <div style="font-size:11px;color:var(--text-pale)">Listo para consultar</div>
         </div>
       </div>
     </div>
@@ -400,10 +406,12 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
     <div class="proof-tags">
       <span class="proof-tag">🌱 Siembras</span>
       <span class="proof-tag">💧 Pulverizaciones</span>
-      <span class="proof-tag">🌾 Cosechas</span>
-      <span class="proof-tag">🧪 Fertilizaciones</span>
-      <span class="proof-tag">🐛 Identificación de plagas</span>
-      <span class="proof-tag">🐄 Registros ganaderos</span>
+	      <span class="proof-tag">🌾 Cosechas</span>
+	      <span class="proof-tag">🧪 Fertilizaciones</span>
+	      <span class="proof-tag">✅ Pendientes del campo</span>
+	      <span class="proof-tag">🗂️ Órdenes de trabajo</span>
+	      <span class="proof-tag">🐛 Identificación de plagas</span>
+	      <span class="proof-tag">🐄 Registros ganaderos</span>
     </div>
   </div>
 </div>
@@ -418,47 +426,58 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
         <div class="step-number s1">
           <div class="step-number-inner">1</div>
         </div>
-        <h3>Mandá un mensaje</h3>
-        <p>Audio, texto o foto por WhatsApp. Como le contarías a un colega qué se hizo en el campo ese día. Sin formularios ni campos que llenar.</p>
+	        <h3>Mandás un audio, texto o foto por WhatsApp</h3>
+	        <p>Desde el lote, la camioneta, el tambo o la oficina. Como ya trabajás todos los días.</p>
       </div>
       <div class="step reveal delay-2">
         <div class="step-number s2">
           <div class="step-number-inner">2</div>
         </div>
-        <h3>Surco lo registra</h3>
-        <p>La IA extrae fecha, lote, tipo de labor, productos y dosis. Te muestra un resumen para que confirmes antes de guardar. Todo en segundos.</p>
+	        <h3>Surco lo ordena</h3>
+	        <p>Detecta la tarea, el lote, la fecha, el responsable, los productos o los datos que estén disponibles, y te muestra un resumen para confirmar.</p>
       </div>
       <div class="step reveal delay-3">
         <div class="step-number s3">
           <div class="step-number-inner">3</div>
         </div>
-        <h3>Compartí el reporte</h3>
-        <p>Generá un PDF profesional del cuaderno de campo y compartilo con quien necesites: el dueño del campo, tu cliente o la cooperativa.</p>
+	        <h3>Te queda guardado</h3>
+	        <p>Cada orden, pendiente o registro queda disponible para consultar después, armar reportes o compartir información clara con tu equipo.</p>
       </div>
     </div>
   </div>
-</section>
+	</section>
+	
+	<!-- PROBLEM -->
+	<section class="problem">
+	  <div class="section-inner">
+	    <div class="section-label reveal">El problema</div>
+	    <div class="problem-card reveal delay-1">
+	      <h2>El problema no es mandar audios. Es encontrarlos después.</h2>
+	      <p>En el campo muchas decisiones, pedidos y tareas se comunican por WhatsApp. Surco transforma esos mensajes en información clara para saber qué se pidió, quién era el responsable, en qué lote, cuándo se hizo y qué quedó pendiente.</p>
+	    </div>
+	  </div>
+	</section>
 
-<!-- SHOWCASE: PDF + features list -->
-<section class="showcase" id="funciones">
+	<!-- SHOWCASE: PDF + features list -->
+	<section class="showcase" id="funciones">
   <div class="section-inner">
     <div class="showcase-inner">
       <div class="showcase-text reveal-left">
-        <div class="section-label">Reportes automáticos</div>
-        <h2>Un PDF profesional,<br>directo al WhatsApp</h2>
-        <p>Cada registro queda guardado y organizado. En cualquier momento podés pedirle a Surco que arme el historial del campo en un PDF para compartir.</p>
+	        <div class="section-label">Historial y reportes PDF</div>
+	        <h2>Del mensaje de WhatsApp<br>al historial del campo</h2>
+	        <p>Cada registro queda guardado y organizado. En cualquier momento podés pedirle a Surco que arme el historial del campo en un PDF para compartir.</p>
         <div class="showcase-list">
           <div class="showcase-item">
             <div class="showcase-item-dot"></div>
-            <div class="showcase-item-text"><strong>Historial completo</strong> con todas las labores ordenadas por fecha y lote</div>
+	            <div class="showcase-item-text"><strong>Historial por lote</strong> con labores, pedidos y pendientes ordenados por fecha</div>
           </div>
           <div class="showcase-item">
             <div class="showcase-item-dot"></div>
-            <div class="showcase-item-text"><strong>Datos de productos</strong>: nombre, dosis, unidad y condiciones de aplicación</div>
+	            <div class="showcase-item-text"><strong>Datos disponibles</strong>: lote, responsable, producto, dosis, fecha y condiciones de aplicación</div>
           </div>
           <div class="showcase-item">
             <div class="showcase-item-dot"></div>
-            <div class="showcase-item-text"><strong>Listo para compartir</strong> con productores, cooperativas o auditorías</div>
+	            <div class="showcase-item-text"><strong>Listo para compartir</strong> con productores, agrónomos, contratistas o equipos de campo</div>
           </div>
         </div>
       </div>
@@ -510,56 +529,68 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
     <div class="feat-intro">
       <div class="reveal-left">
         <div class="section-label">Todo desde WhatsApp</div>
-        <h2 class="section-title" style="margin-bottom:0">Sin apps.<br>Sin planillas.<br>Sin fricción.</h2>
+	        <h2 class="section-title" style="margin-bottom:0">Sin otra aplicación.<br>Sin planillas.<br>Sin perder datos.</h2>
       </div>
       <div class="feat-intro-stat reveal-right delay-1">
         <div class="stat-card">
           <div class="stat-number">10 segundos</div>
-          <div class="stat-label">para registrar una labor por audio</div>
+	          <div class="stat-label">para dejar ordenado un mensaje del campo</div>
         </div>
         <div class="stat-card">
           <div class="stat-number">100%</div>
-          <div class="stat-label">por WhatsApp · sin apps ni cuentas</div>
+	          <div class="stat-label">por WhatsApp · sin otra aplicación ni cuentas</div>
         </div>
       </div>
     </div>
     <div class="feat-grid">
       <div class="feat-card reveal delay-1">
-        <span class="feat-icon">📋</span>
-        <h3>Cuaderno de campo digital</h3>
-        <p>Registrá pulverizaciones, siembras, cosechas y fertilizaciones por audio o texto. Todo queda organizado por lote y fecha.</p>
-        <span class="feat-tag">Trazabilidad</span>
-      </div>
-      <div class="feat-card reveal delay-2">
-        <span class="feat-icon">📸</span>
-        <h3>Identificación de plagas</h3>
-        <p>Mandá una foto de la hoja o el insecto y Surco te dice qué puede ser, con recomendaciones de manejo agronómico.</p>
-        <span class="feat-tag">IA Vision</span>
-      </div>
-      <div class="feat-card reveal delay-3">
-        <span class="feat-icon">📊</span>
-        <h3>Historial y reportes PDF</h3>
-        <p>Consultá qué se hizo en cada lote y exportá el historial completo como PDF profesional para compartir con quien necesites.</p>
-        <span class="feat-tag">Exportable</span>
-      </div>
-      <div class="feat-card reveal delay-1">
-        <span class="feat-icon">🎤</span>
-        <h3>Registro por audio</h3>
-        <p>El audio se transcribe y la IA extrae todos los datos automáticamente. Como contarle a un colega qué hiciste en el campo.</p>
-        <span class="feat-tag">Whisper AI</span>
-      </div>
-      <div class="feat-card reveal delay-2">
-        <span class="feat-icon">🐄</span>
-        <h3>Registro ganadero</h3>
-        <p>Vacunaciones, partos, destetes, desparasitaciones y movimientos de hacienda. Todo por voz desde WhatsApp.</p>
-        <span class="feat-tag">Ganadería</span>
-      </div>
-      <div class="feat-card reveal delay-3">
-        <span class="feat-icon">📋</span>
-        <h3>Presupuestos de labores</h3>
-        <p>Para contratistas: dictá los detalles del trabajo y Surco arma el presupuesto estructurado listo para enviar al cliente.</p>
-        <span class="feat-tag">Contratistas</span>
-      </div>
+	        <span class="feat-icon">🎙️</span>
+	        <h3>De mensaje a orden de trabajo</h3>
+	        <p>Mandás un audio o texto por WhatsApp y Surco lo deja ordenado como tarea, lote, responsable y fecha cuando esos datos están disponibles.</p>
+	        <span class="feat-tag">Órdenes</span>
+	      </div>
+	      <div class="feat-card reveal delay-2">
+	        <span class="feat-icon">✅</span>
+	        <h3>Pendientes del campo</h3>
+	        <p>Guardá pedidos, tareas por hacer y seguimientos para que no queden perdidos entre audios o chats largos.</p>
+	        <span class="feat-tag">Seguimiento</span>
+	      </div>
+	      <div class="feat-card reveal delay-3">
+	        <span class="feat-icon">📋</span>
+	        <h3>Registro por audio o mensaje</h3>
+	        <p>Registrá labores, recorridas, lluvias, aplicaciones y observaciones desde WhatsApp. Surco lo ordena como cuaderno de campo digital.</p>
+	        <span class="feat-tag">Registro de labores</span>
+	      </div>
+	      <div class="feat-card reveal delay-1">
+	        <span class="feat-icon">🗂️</span>
+	        <h3>Historial por lote</h3>
+	        <p>Consultá qué se pidió, qué se hizo y qué quedó pendiente en cada lote, con registros por fecha y actividad.</p>
+	        <span class="feat-tag">Historial</span>
+	      </div>
+	      <div class="feat-card reveal delay-2">
+	        <span class="feat-icon">📄</span>
+	        <h3>Reportes PDF</h3>
+	        <p>Armá reportes PDF del historial del campo para compartir con productores, agrónomos, contratistas o equipos de trabajo.</p>
+	        <span class="feat-tag">Reportes</span>
+	      </div>
+	      <div class="feat-card reveal delay-3">
+	        <span class="feat-icon">📸</span>
+	        <h3>Fotos para plagas y monitoreo</h3>
+	        <p>Mandá fotos de hojas, insectos, malezas o recorridas. Surco las deja asociadas al registro y ayuda a ordenar el monitoreo.</p>
+	        <span class="feat-tag">Plagas</span>
+	      </div>
+	      <div class="feat-card reveal delay-1">
+	        <span class="feat-icon">🐄</span>
+	        <h3>Registro ganadero</h3>
+	        <p>Vacunaciones, partos, destetes, desparasitaciones y movimientos de hacienda. Todo por voz desde WhatsApp.</p>
+	        <span class="feat-tag">Ganadería</span>
+	      </div>
+	      <div class="feat-card reveal delay-2">
+	        <span class="feat-icon">🚜</span>
+	        <h3>Próximamente: presupuestos de labores</h3>
+	        <p>Función secundaria para contratistas. Puede ayudar a ordenar datos de un trabajo sin sacar el foco de órdenes, pendientes y registros.</p>
+	        <span class="feat-tag">Próximamente</span>
+	      </div>
     </div>
   </div>
 </section>
@@ -573,21 +604,27 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
       <div class="aud-card reveal delay-1">
         <span class="aud-emoji">🌾</span>
         <h3>Productores agropecuarios</h3>
-        <p>Tené todo el historial de tu campo organizado sin llenar planillas. Recibí reportes automáticos de lo que hace tu agrónomo en cada lote.</p>
-        <a href="https://wa.me/5491178290066" class="aud-card-cta" target="_blank" rel="noopener">Empezar →</a>
+	        <p>Para llevar el historial del campo y los pendientes sin depender de planillas.</p>
+	        <a href="https://wa.me/5491178290066" class="aud-card-cta" target="_blank" rel="noopener">Probar →</a>
       </div>
       <div class="aud-card reveal delay-2">
         <span class="aud-emoji">🔬</span>
         <h3>Ingenieros agrónomos</h3>
-        <p>Registrá las labores de tus clientes en 10 segundos por audio. Generá PDFs profesionales con tu logo para compartir con los productores.</p>
-        <a href="https://wa.me/5491178290066" class="aud-card-cta" target="_blank" rel="noopener">Empezar →</a>
+	        <p>Para registrar recorridas, labores, monitoreos y pedidos de clientes desde WhatsApp.</p>
+	        <a href="https://wa.me/5491178290066" class="aud-card-cta" target="_blank" rel="noopener">Probar →</a>
       </div>
       <div class="aud-card reveal delay-3">
         <span class="aud-emoji">🚜</span>
         <h3>Contratistas rurales</h3>
-        <p>Llevá un historial organizado de cada labor, campo y cliente. Armá presupuestos de pulverización, cosecha y siembra al toque.</p>
-        <a href="https://wa.me/5491178290066" class="aud-card-cta" target="_blank" rel="noopener">Empezar →</a>
-      </div>
+	        <p>Para ordenar trabajos, pedidos y tareas por campo, lote y fecha.</p>
+	        <a href="https://wa.me/5491178290066" class="aud-card-cta" target="_blank" rel="noopener">Probar →</a>
+	      </div>
+	      <div class="aud-card reveal delay-4">
+	        <span class="aud-emoji">👥</span>
+	        <h3>Equipos de campo</h3>
+	        <p>Para que las instrucciones no queden perdidas en audios o chats largos.</p>
+	        <a href="https://wa.me/5491178290066" class="aud-card-cta" target="_blank" rel="noopener">Probar →</a>
+	      </div>
     </div>
   </div>
 </section>
@@ -608,7 +645,8 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
           <div class="price-feature">Historial últimos 30 días</div>
           <div class="price-feature">5 fotos de plagas por mes</div>
           <div class="price-feature">3 PDFs por mes</div>
-          <div class="price-feature">Registro por audio, texto y foto</div>
+	          <div class="price-feature">Registro por audio, texto y foto</div>
+	          <div class="price-feature">Órdenes y pendientes simples</div>
         </div>
       </div>
       <div class="price-card featured reveal delay-2">
@@ -619,7 +657,7 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
         <div class="price-features">
           <div class="price-feature">Campos ilimitados</div>
           <div class="price-feature">Historial completo sin límite</div>
-          <div class="price-feature">Dashboard web personalizado — accedé desde cualquier computadora y tenés todo el control de tus datos</div>
+	          <div class="price-feature">Vista web personalizada para consultar tus datos desde la computadora</div>
           <div class="price-feature">PDFs ilimitados</div>
         </div>
         <a href="mailto:hola@surco.lat?subject=Lista de espera Pro&body=Hola, me interesa el plan Pro de Surco." style="display:inline-flex;align-items:center;gap:8px;margin-top:24px;background:var(--green);color:#fff;text-decoration:none;padding:12px 24px;border-radius:100px;font-size:14px;font-weight:600;transition:all .2s" onmouseover="this.style.background='var(--green-dark)'" onmouseout="this.style.background='var(--green)'">
@@ -635,7 +673,7 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
   <div class="section-inner">
     <div class="faq-layout">
       <div class="faq-sidebar reveal-left">
-        <div class="section-label">FAQ</div>
+	        <div class="section-label">Preguntas frecuentes</div>
         <h2>Lo que nos preguntan siempre</h2>
         <p>Si tenés una pregunta que no está acá, escribinos directo.</p>
         <a href="mailto:hola@surco.lat" class="faq-contact">hola@surco.lat →</a>
@@ -646,28 +684,28 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
             ¿Qué es Surco?
             <div class="faq-toggle">+</div>
           </div>
-          <div class="faq-a">Surco es un cuaderno de campo digital que funciona 100% por WhatsApp. Registrás labores agrícolas por audio, texto o foto, y Surco organiza todo automáticamente con inteligencia artificial. No necesitás descargar ninguna app.</div>
+	          <div class="faq-a">Surco es un cuaderno de campo digital por WhatsApp. Convierte audios, textos y fotos en órdenes de trabajo, pendientes, registros por lote, historial del campo y reportes PDF. No necesitás descargar ninguna aplicación.</div>
         </div>
         <div class="faq-item">
           <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
             ¿Cuánto cuesta?
             <div class="faq-toggle">+</div>
           </div>
-          <div class="faq-a">Surco es gratis para empezar, sin límite de conversaciones mientras estamos en etapa de lanzamiento. Podés registrar labores, identificar plagas por foto y generar reportes PDF sin costo. Más adelante habrá un plan Pro con funciones avanzadas.</div>
+	          <div class="faq-a">Surco es gratis para empezar, sin límite de conversaciones mientras estamos en etapa de lanzamiento. Podés registrar labores, guardar pendientes, identificar plagas por foto y generar reportes PDF sin costo. Más adelante habrá un plan Pro con más capacidad para campos y equipos.</div>
         </div>
         <div class="faq-item">
           <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
-            ¿Necesito descargar una app?
+	            ¿Necesito descargar otra aplicación?
             <div class="faq-toggle">+</div>
           </div>
-          <div class="faq-a">No. Surco funciona directamente desde WhatsApp. No necesitás descargar ninguna aplicación, crear cuentas ni aprender a usar nada nuevo. Si sabés mandar un audio por WhatsApp, sabés usar Surco.</div>
+	          <div class="faq-a">No. Surco funciona directamente desde WhatsApp. No necesitás descargar ninguna aplicación, crear cuentas ni aprender a usar algo nuevo. Si sabés mandar un audio por WhatsApp, sabés usar Surco.</div>
         </div>
         <div class="faq-item">
           <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
             ¿Funciona con audios en voz?
             <div class="faq-toggle">+</div>
           </div>
-          <div class="faq-a">Sí. Podés mandar un audio describiendo la labor como si le contaras a un colega. Surco transcribe el audio y extrae automáticamente la fecha, el lote, el tipo de labor, los productos y las dosis.</div>
+	          <div class="faq-a">Sí. Podés mandar un audio con una labor, una orden o un pendiente. Surco lo transcribe, detecta los datos importantes y te muestra un resumen para confirmar.</div>
         </div>
         <div class="faq-item">
           <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">
@@ -693,13 +731,13 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
   <div class="final-cta-inner">
     <div class="hero-eyebrow reveal" style="color:var(--green-light);border-color:rgba(106,158,72,.3);background:rgba(106,158,72,.1)">
       <span style="background:var(--green-light)"></span>
-      Gratis · Sin descargar nada · Empezás en 30 segundos
+	      Gratis · Sin descargar nada · Empezás en 30 segundos
     </div>
-    <h2 class="reveal delay-1">Registrá el campo<br><em>desde donde estés</em></h2>
-    <p class="reveal delay-2">Mandá un "Hola" por WhatsApp y en 30 segundos ya estás registrando tu primer labor.</p>
-    <a href="https://wa.me/5491178290066" class="hero-cta reveal delay-3" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
+	    <h2 class="reveal delay-1">Probá Surco<br><em>por WhatsApp</em></h2>
+	    <p class="reveal delay-2">Mandá un "Hola" y empezá a ordenar audios, mensajes y fotos como órdenes, pendientes del campo y registros del día a día.</p>
+	    <a href="https://wa.me/5491178290066" class="hero-cta reveal delay-3" target="_blank" rel="noopener" aria-label="Probar Surco por WhatsApp">
       <svg viewBox="0 0 24 24" fill="currentColor" style="width:20px;height:20px"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.147.564 4.16 1.553 5.907L0 24l6.305-1.654A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-2.003 0-3.868-.573-5.455-1.558l-.39-.232-3.744.982.999-3.648-.254-.404A9.77 9.77 0 012.182 12 9.818 9.818 0 0112 2.182 9.818 9.818 0 0121.818 12 9.818 9.818 0 0112 21.818z"/></svg>
-      Abrir WhatsApp
+	      Probar Surco por WhatsApp
     </a>
     <div class="final-sub reveal delay-4">+54 9 11 7829-0066 · surco.lat</div>
   </div>
@@ -713,7 +751,7 @@ footer{padding:40px 32px;background:var(--brown);border-top:1px solid rgba(201,1
       <a href="#como-funciona">Cómo funciona</a>
       <a href="#funciones">Funciones</a>
       <a href="#planes">Planes</a>
-      <a href="#preguntas">FAQ</a>
+	      <a href="#preguntas">Preguntas</a>
       <a href="mailto:hola@surco.lat">hola@surco.lat</a>
       <a href="https://agustinadieser-create.github.io/surco-privacidad/" target="_blank" rel="noopener">Privacidad</a>
     </div>
